@@ -5,6 +5,8 @@ import {
 import { Root } from "./pages/Root";
 import { Home } from "./pages/Home";
 import { Single } from "./pages/Single";
+import injectContext from "./context/AppContext";
+import { Demo } from "./pages/Demo";
 
 const router = createBrowserRouter([
     {
@@ -18,8 +20,12 @@ const router = createBrowserRouter([
                 element: <Home />,
             },
             {
-                path: "single/:theid",
+                path: "single/:theId",
                 element: <Single />,
+            },
+            {
+                path: "demo",
+                element: <Demo />,
             },
         ],
         errorElement: <h1>Not found!</h1>,
@@ -37,4 +43,4 @@ const Layout = () => {
     );
 };
 
-export default Layout;
+export default injectContext(Layout);
