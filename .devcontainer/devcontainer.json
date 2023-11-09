@@ -2,15 +2,23 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/postgres
 {
 	"name": "React + Vite",
-	"dockerComposeFile": "docker-compose.yml",
-	"service": "app",
-    "customizations": {
-        "extensions": ["vscode-eslint", "vscode-jest"],
-        "settings": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode",
-            "eslint.validate": ["javascript", "typescript"]
-        }
-    },
+	"image": "mcr.microsoft.com/devcontainers/python:0-3.10",
+	"customizations": {
+		"extensions": [
+			"vscode-eslint",
+			"vscode-jest"
+		],
+		"settings": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode",
+			"eslint.validate": [
+				"javascript",
+				"typescript"
+			],
+			"workbench.editorAssociations": {
+				"*.md": "vscode.markdown.preview.editor"
+			}
+		}
+	},
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	"features": {
 		"ghcr.io/devcontainers/features/github-cli:1": {
@@ -22,17 +30,12 @@
 			"version": "lts"
 		}
 	},
-
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
-
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// This can be used to network with other containers or the host.
-	"forwardPorts": [3000],
-
-	"onCreateCommand": "(cp .env.example .env || echo \".env creation failed\")",
-	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm ci"
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+	"forwardPorts": [
+		3000
+	],
+	"onCreateCommand": "npm ci && (cp .env.example .env || echo \".env creation failed\")",
 }
