@@ -1,20 +1,7 @@
-import { useState } from 'react'
-import { useStore } from './useStore';
+import { useContext } from "react";
+import Context from "../context/AppContext";
 
-const initilActions = {
-    exampleFunction: () => {
-        getActions().changeColor(0, "green");
-    }
+export const useActions = () => {
+	const { actions } = useContext(Context);
+    return { actions }
 }
-
-const useActions = () => {
-    const [actions, setActions] = useState(initialActions)
-
-    const {setStore} = useStore()
-
-    return {
-        actions
-    }
-}
-
-export default useActions;
