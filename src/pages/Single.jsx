@@ -1,17 +1,15 @@
-import { useContext } from "react";
 import { Link, useParams } from "react-router-dom";
 import PropTypes from "prop-types";
-import { Context } from "../context/AppContext";
 import rigoImageUrl from "../assets/img/rigo-baby.jpg"
-import { useGlobalState } from "../hooks/useGlobalState";
+import { useStore } from "../hooks/useStore";
 
 export const Single = props => {
-	const { store } = useGlobalState()
- 	const { demo } = store;
-
-	// this is the basic form => const params = useParams();
-	// we prefeer the destructuring form
+	const { demo } = useStore()
 	const { theId } = useParams()
+	// Note: The the basic form is => const params = useParams();
+	// As well const store = useStore();
+	// We prefeer the destructuring form in some cases
+	// useStore is a Custom Hook! to replace the usual form to use context 
 
 	return (
 		<div className="jumbotron">

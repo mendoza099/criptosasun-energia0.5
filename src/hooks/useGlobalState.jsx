@@ -1,5 +1,7 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { globalState } from '../context/globalState';
+
+
 
 export const useGlobalState = () => {
     const [state, setState] = useState(globalState({

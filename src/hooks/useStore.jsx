@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import Context from "../context/AppContext";
 
-export const useActions = () => {
+export const useStore = () => {
 	const { store } = useContext(Context);
     return { store }
 }

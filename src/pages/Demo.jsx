@@ -1,11 +1,11 @@
-import { useContext } from "react";
 import { Link } from "react-router-dom";
-import { useGlobalState } from "../hooks/useGlobalState";
+import { useActions } from "../hooks/useActions";
 
 export const Demo = () => {
-	const { store, actions } = useGlobalState();
-	// console.log(store)
-	const { changeColor } = actions
+	const store = useStore();
+	const { changeColor } = useActions();
+	// Note: as we see in the Single view, we can use the destructuring form for our code.
+
 	return (
 		<div className="container">
 			<ul className="list-group">
