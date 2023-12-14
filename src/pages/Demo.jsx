@@ -1,9 +1,10 @@
-import { useContext } from "react";
 import { Link } from "react-router-dom";
-import { Context } from "../context/AppContext";
+import { useActions } from "../hooks/useActions";
 
 export const Demo = () => {
-	const { store, actions } = useContext(Context);
+	const store = useStore();
+	const { changeColor } = useActions();
+	// Note: as we see in the Single view, we can use the destructuring form for our code.
 
 	return (
 		<div className="container">
@@ -24,7 +25,7 @@ export const Demo = () => {
 									Check store/flux.js scroll to the actions to see the code
 								</p>
 							) : null}
-							<button className="btn btn-success" onClick={() => actions.changeColor(index, "orange")}>
+							<button className="btn btn-success" onClick={() => changeColor(index, "orange")}>
 								Change Color
 							</button>
 						</li>
