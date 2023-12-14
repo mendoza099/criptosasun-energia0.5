@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useActions } from "../hooks/useActions";
+import { useStore } from "../hooks/useStore";
 
 export const Demo = () => {
 	const store = useStore();
