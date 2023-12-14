@@ -1,7 +1,5 @@
-import { useEffect } from "react";
 import {  RouterProvider } from "react-router-dom";
-import Context from "./context/_AppContext";
-import injectContext from "./context/_AppContext";
+import Context from "./context/AppContext";
 // This is where all your routes are located
 import { router } from "./routes";
 import { useGlobalState } from "./hooks/useGlobalState";
