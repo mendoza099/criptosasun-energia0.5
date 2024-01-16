@@ -5,8 +5,7 @@ import {
 } from "react-router-dom";
 import { BaseHome } from "./pages/BaseHome";
 import { Home } from "./pages/Home";
-import { Single } from "./pages/Single";
-import { Demo } from "./pages/Demo";
+
 
 export const router = createBrowserRouter(
     createRoutesFromElements(
@@ -16,8 +15,7 @@ export const router = createBrowserRouter(
     // Note: The child paths of the BaseHome element replace the Outlet component with the elements contained in the "element" attribute of these child paths.
 
       <Route path="/" element={<BaseHome />} errorElement={<h1>Not found!</h1>} >
-        <Route path="single/:theId" element={ <Single />} />
-        <Route path="demo" element={<Demo />} />
+       
         <Route path= "/" element={<Home />} />
       </Route>
     )

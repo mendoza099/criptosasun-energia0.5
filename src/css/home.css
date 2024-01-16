@@ -1,0 +1,1274 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.inicio {
+  background-color: #e9e9e9;
+
+  padding-top: 3%;
+}
+
+.titulo1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4%;
+  font-family: "Poppins", sans-serif;
+  color: #4c4e52;
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.icono1,
+.parrafo1 {
+  background-image: url("https://res.cloudinary.com/dwkb2dk5r/image/upload/v1703161913/rec_vh9w5l.png");
+  background-repeat: no-repeat;
+  background-position: 0 17%;
+  padding-left: 28px;
+}
+
+.parrafo1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  color: #4c4e52;
+  margin-top: 3%;
+  margin-left: 12%;
+  width: 60%;
+}
+.contenedor1 {
+  display: flex;
+  justify-content: space-between; /* Alinea los elementos hijos y distribuye el espacio */
+
+  margin-left: 2%;
+}
+.triangulo {
+  margin-top: 6%;
+}
+.cuadro1 {
+  /* Ajustes para el contenedor de texto, como el ancho */
+  width: 63%; /* Ejemplo de ancho, ajusta según sea necesario */
+}
+
+.texto1 {
+  /* Ajustes para el contenedor de la imagen, como el ancho */
+  width: 60%; /* Ejemplo de ancho, ajusta según sea necesario */
+}
+
+.imgtexto {
+  width: 100%; /* Ajusta la imagen para que ocupe todo el ancho de su contenedor */
+  height: 100%; /* Mantiene la relación de aspecto de la imagen */
+}
+.texto2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  color: #4c4e52;
+  width: 40%;
+  margin-left: 15%;
+  margin-right: 28%;
+}
+
+.parte2 {
+  margin-top: -30px;
+  display: flex;
+  flex-direction: column; /* Organiza los hijos en una columna */
+  align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.titulo-imagen {
+  max-width: 7%; /* Ajusta la imagen para que no sea más ancha que su contenedor */
+  height: auto; /* Mantiene la relación de aspecto de la imagen */
+  margin-bottom: 1.5rem; /* Añade espacio entre la imagen y el texto */
+}
+.titulo2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  color: #4c4e52;
+  width: 80%;
+  text-align: center;
+}
+.titulo3 {
+  display: flex;
+  margin-left: 12%;
+  margin-bottom: 8%;
+}
+.titulo4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  color: #4c4e52;
+  width: 60%;
+  margin-top: 7%;
+  padding-left: 8%;
+}
+.parte3 {
+  margin-bottom: 6%;
+  display: flex;
+  flex-direction: column; /* Organiza los hijos en una columna */
+  align-items: center; /* Centra los elementos horizontalmente */
+  text-align: center; /* Centra el texto */
+}
+.parte4 {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column; /* Organiza los hijos en una columna */
+  align-items: center; /* Centra los elementos horizontalmente */
+  text-align: center; /* Centra el texto */
+}
+.adaptabilidad {
+  height: 200px;
+  width: 200px;
+  margin-left: 18%;
+}
+.colocacionparte4 {
+  display: flex;
+}
+.parrafo11 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  color: #4c4e52;
+  width: 50%;
+  margin-left: 3%;
+}
+.parrafo11 {
+  background-image: url("https://res.cloudinary.com/dwkb2dk5r/image/upload/v1703161913/rec_vh9w5l.png");
+  background-repeat: no-repeat;
+
+  padding-left: 28px;
+}
+.adaptabilidad21 {
+  height: 200px;
+  width: 300px;
+}
+.parrafo12 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  color: #4c4e52;
+  width: 50%;
+  margin-left: 27%;
+  margin-top: 3%;
+}
+.parrafo12 {
+  background-image: url("https://res.cloudinary.com/dwkb2dk5r/image/upload/v1703161913/rec_vh9w5l.png");
+  background-repeat: no-repeat;
+
+  padding-left: 28px;
+}
+.adaptabilidad23 {
+  height: 200px;
+  width: 250px;
+  margin-left: 18%;
+}
+.colocacionparte5 {
+  display: flex;
+  margin-top: 7%;
+}
+.textoequipo {
+  display: flex;
+  flex-direction: column; /* Organiza los hijos en una columna */
+  align-items: center; /* Centra los elementos horizontalmente */
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  color: #4c4e52;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+.logo1 {
+  width: 400px;
+  height: 200px;
+}
+.imagen-boton {
+  margin: 0 191px;
+  margin-top: -2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra los elementos (imagen y botón) verticalmente */
+}
+.logotipo1 {
+  display: flex;
+  justify-content: space-between; /* Distribuye el espacio de manera uniforme */
+}
+.buttonSaberMas1 {
+  border-radius: 100px;
+  padding: 2%;
+  color: white;
+  background-color: #faa123;
+  border-color: white;
+}
+.buttonSaberMas {
+  border-radius: 100px;
+  padding: 2%;
+  color: white;
+  background-color: #24d49e;
+  border-color: white;
+}
+.espacio-trabajadores {
+  margin-bottom: 5%;
+}
+.colocarFormulario {
+ padding-bottom: 6%;
+}
+.contacto {
+  max-width: 7%; /* Ajusta la imagen para que no sea más ancha que su contenedor */
+  height: auto;
+  margin-left: 46%;
+  margin-top: -4%;
+  margin-bottom: 2%;
+}
+.noticias {
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+.equuipo23 {
+  max-width: 7%;
+  margin-bottom: 1%;
+}
+@media (max-width: 1024px) {
+  .inicio {
+    padding-top: 4%; /* Aumenta el padding ligeramente */
+  }
+}
+
+/* Para tabletas */
+@media (max-width: 768px) {
+  .inicio {
+    padding-top: 5%; /* Aumenta más el padding para tabletas */
+  }
+}
+
+/* Para teléfonos móviles grandes */
+@media (max-width: 600px) {
+  .inicio {
+    padding-top: 6%; /* Ajuste para móviles grandes */
+  }
+}
+
+/* Para teléfonos móviles pequeños */
+@media (max-width: 480px) {
+  .inicio {
+    padding-top: 7%; /* Ajuste para móviles pequeños */
+  }
+}
+@media (max-width: 1024px) {
+  .titulo1 {
+    font-size: 60px; /* Tamaño más pequeño para tabletas grandes */
+  }
+}
+
+/* Para tabletas */
+@media (max-width: 768px) {
+  .titulo1 {
+    font-size: 50px; /* Tamaño más pequeño para tabletas */
+  }
+}
+
+/* Para teléfonos móviles grandes */
+@media (max-width: 600px) {
+  .titulo1 {
+    font-size: 40px; /* Tamaño más pequeño para teléfonos grandes */
+  }
+}
+
+/* Para teléfonos móviles pequeños */
+@media (max-width: 480px) {
+  .titulo1 {
+    font-size: 30px; /* Tamaño más pequeño para teléfonos pequeños */
+  }
+}
+@media (max-width: 1024px) {
+  .parrafo1 {
+    font-size: 28px;
+    margin-left: 10%;
+    width: 70%;
+  }
+}
+
+/* Para tabletas */
+@media (max-width: 768px) {
+  .parrafo1 {
+    font-size: 26px;
+    margin-left: 8%;
+    width: 80%;
+  }
+}
+
+/* Para teléfonos móviles grandes */
+@media (max-width: 600px) {
+  .parrafo1 {
+    font-size: 24px;
+    margin-top: 7%;
+    margin-left: 6%;
+    width: 90%;
+  }
+}
+
+/* Para teléfonos móviles pequeños */
+@media (max-width: 480px) {
+  .parrafo1 {
+    font-size: 22px;
+    margin-top: 6%;
+    margin-left: 4%;
+    width: 95%;
+  }
+}
+@media (max-width: 1024px) {
+  .contenedor1 {
+    /* Ajustes para tabletas grandes y pantallas pequeñas */
+    flex-direction: row; /* O column, según necesites */
+    justify-content: space-around; /* Ajusta la distribución de espacio */
+  }
+}
+
+/* Para tabletas */
+@media (max-width: 768px) {
+  .contenedor1 {
+    /* Ajustes específicos para tabletas */
+    flex-direction: column; /* Cambia la disposición a vertical */
+    align-items: center; /* Centra los elementos horizontalmente */
+    margin-left: 0; /* Ajusta el margen izquierdo */
+  }
+}
+
+@media (max-width: 1024px) {
+  .cuadro1 {
+    width: 75%; /* Ajusta el ancho para tabletas grandes */
+  }
+}
+
+/* Para tabletas */
+@media (max-width: 768px) {
+  .cuadro1 {
+    width: 85%; /* Ajusta el ancho para tabletas */
+  }
+}
+
+/* Para teléfonos móviles grandes */
+@media (max-width: 600px) {
+  .cuadro1 {
+    width: 95%; /* Ajusta el ancho para teléfonos grandes */
+  }
+}
+
+/* Para teléfonos móviles pequeños */
+@media (max-width: 480px) {
+  .cuadro1 {
+    width: 100%; /* Ajusta el ancho para teléfonos pequeños */
+  }
+}
+@media (max-width: 1024px) {
+  .texto1 {
+    width: 70%; /* Ajusta el ancho para tabletas grandes */
+  }
+}
+
+/* Para tabletas */
+@media (max-width: 768px) {
+  .texto1 {
+    width: 80%; /* Ajusta el ancho para tabletas */
+  }
+}
+
+/* Para teléfonos móviles grandes */
+@media (max-width: 600px) {
+  .texto1 {
+    width: 90%; /* Ajusta el ancho para teléfonos grandes */
+  }
+}
+
+/* Para teléfonos móviles pequeños */
+@media (max-width: 480px) {
+  .texto1 {
+    width: 100%; /* Ajusta el ancho para teléfonos pequeños */
+  }
+}
+@media (max-width: 768px) {
+  .texto2 {
+    font-size: 20px;
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 10%;
+  }
+}
+
+/* Para teléfonos móviles grandes */
+@media (max-width: 600px) {
+  .texto2 {
+    font-size: 18px;
+    width: 70%;
+    margin-left: 3%;
+    margin-right: 5%;
+  }
+}
+
+/* Para teléfonos móviles pequeños */
+@media (max-width: 480px) {
+  .texto2 {
+    font-size: 16px;
+    width: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .titulo-imagen {
+    max-width: 10%; /* Aumenta el tamaño máximo para tabletas grandes */
+    margin-bottom: 0.8rem;
+  }
+}
+
+/* Para tabletas */
+@media (max-width: 768px) {
+  .titulo-imagen {
+    max-width: 15%; /* Aumenta el tamaño máximo para tabletas */
+    margin-bottom: 0.6rem;
+  }
+}
+
+/* Para teléfonos móviles */
+@media (max-width: 480px) {
+  .titulo-imagen {
+    max-width: 20%; /* Aumenta el tamaño máximo para teléfonos móviles */
+    margin-bottom: 0.5rem;
+  }
+}
+@media (max-width: 1024px) {
+  .titulo2 {
+    font-size: 20px;
+    width: 85%;
+  }
+}
+
+/* Para tabletas */
+@media (max-width: 768px) {
+  .titulo2 {
+    font-size: 18px;
+    width: 90%;
+  }
+}
+
+/* Para teléfonos móviles grandes */
+@media (max-width: 600px) {
+  .titulo2 {
+    font-size: 16px;
+    width: 95%;
+  }
+}
+
+/* Para teléfonos móviles pequeños */
+@media (max-width: 480px) {
+  .titulo2 {
+    font-size: 14px;
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .titulo3 {
+    margin-left: 10%; /* Margen más pequeño para tabletas grandes */
+  }
+}
+
+/* Para tabletas */
+@media (max-width: 768px) {
+  .titulo3 {
+    margin-left: 8%; /* Margen más pequeño para tabletas */
+  }
+}
+
+/* Para teléfonos móviles grandes */
+@media (max-width: 600px) {
+  .titulo3 {
+    margin-left: 5%; /* Margen más pequeño para teléfonos grandes */
+  }
+}
+
+/* Para teléfonos móviles pequeños */
+@media (max-width: 480px) {
+  .titulo3 {
+    margin-left: 2%; /* Margen más pequeño para teléfonos pequeños */
+  }
+}
+
+/* Para tabletas grandes y pantallas pequeñas */
+@media (max-width: 1024px) {
+  .titulo4 {
+    font-size: 20px;
+    width: 70%;
+    margin-top: 6%;
+    padding-left: 7%;
+  }
+}
+
+/* Para tabletas */
+@media (max-width: 768px) {
+  .titulo4 {
+    font-size: 18px;
+    width: 80%;
+    margin-top: 5%;
+    padding-left: 6%;
+  }
+}
+
+/* Para teléfonos móviles grandes */
+@media (max-width: 600px) {
+  .titulo4 {
+    font-size: 16px;
+    width: 90%;
+    margin-top: 4%;
+    padding-left: 5%;
+  }
+}
+
+/* Para teléfonos móviles pequeños */
+@media (max-width: 480px) {
+  .titulo4 {
+    font-size: 14px; /* Disminuye el tamaño de la fuente */
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    margin-top: 3%; /* Establece un margen superior */
+    padding-left: 4%; /* Añade un relleno izquierdo */
+  }
+}
+@media (max-width: 1024px) {
+  .parte3 {
+    margin-bottom: 5%; /* Ajusta el margen inferior */
+  }
+}
+
+/* Para tabletas */
+@media (max-width: 768px) {
+  .parte3 {
+    margin-bottom: 4%; /* Ajusta el margen inferior para tabletas */
+  }
+}
+
+/* Para teléfonos móviles grandes */
+@media (max-width: 600px) {
+  .parte3 {
+    margin-bottom: 3%; /* Ajusta el margen inferior para teléfonos grandes */
+  }
+}
+
+/* Para teléfonos móviles pequeños */
+@media (max-width: 480px) {
+  .parte3 {
+    margin-bottom: 2%; /* Ajusta el margen inferior para teléfonos pequeños */
+  }
+}
+/* Para tabletas grandes y pantallas pequeñas */
+@media (max-width: 1024px) {
+  .parte4 {
+    margin-top: 4%; /* Ajusta el margen superior para tabletas grandes */
+  }
+}
+
+/* Para tabletas */
+@media (max-width: 768px) {
+  .parte4 {
+    margin-top: 5%; /* Ajusta el margen superior para tabletas */
+  }
+}
+
+/* Para teléfonos móviles grandes */
+@media (max-width: 600px) {
+  .parte4 {
+    margin-top: 6%; /* Ajusta el margen superior para teléfonos grandes */
+  }
+}
+
+/* Para teléfonos móviles pequeños */
+@media (max-width: 480px) {
+  .parte4 {
+    margin-top: 7%; /* Ajusta el margen superior para teléfonos pequeños */
+  }
+}
+@media (max-width: 1024px) {
+  .adaptabilidad {
+    height: 180px; /* Ajuste de altura */
+    width: 180px; /* Ajuste de ancho */
+    margin-left: 16%; /* Ajuste del margen izquierdo */
+  }
+}
+
+/* Para tabletas (hasta 768px) */
+@media (max-width: 768px) {
+  .adaptabilidad {
+    height: 150px; /* Ajuste de altura para tabletas */
+    width: 150px; /* Ajuste de ancho para tabletas */
+    margin-left: 14%; /* Ajuste del margen izquierdo para tabletas */
+  }
+}
+
+/* Para teléfonos móviles grandes (hasta 600px) */
+@media (max-width: 600px) {
+  .adaptabilidad {
+    height: 120px; /* Ajuste de altura para móviles grandes */
+    width: 120px; /* Ajuste de ancho para móviles grandes */
+    margin-left: 12%; /* Ajuste del margen izquierdo para móviles grandes */
+  }
+}
+
+/* Para teléfonos móviles pequeños (hasta 480px) */
+@media (max-width: 480px) {
+  .adaptabilidad {
+    height: 100px; /* Ajuste de altura para móviles pequeños */
+    width: 100px; /* Ajuste de ancho para móviles pequeños */
+    margin-left: 10%; /* Ajuste del margen izquierdo para móviles pequeños */
+  }
+}
+@media (max-width: 1024px) {
+  .parrafo11 {
+    font-size: 24px; /* Ajuste del tamaño de la fuente */
+    width: 60%; /* Ajuste del ancho */
+    margin-left: 4%; /* Ajuste del margen izquierdo */
+  }
+}
+
+/* Para tabletas (hasta 768px) */
+@media (max-width: 768px) {
+  .parrafo11 {
+    font-size: 20px; /* Ajuste del tamaño de la fuente para tabletas */
+    width: 70%; /* Ajuste del ancho para tabletas */
+    margin-left: 5%; /* Ajuste del margen izquierdo para tabletas */
+  }
+}
+
+/* Para teléfonos móviles grandes (hasta 600px) */
+@media (max-width: 600px) {
+  .parrafo11 {
+    font-size: 18px; /* Ajuste del tamaño de la fuente para móviles grandes */
+    width: 80%; /* Ajuste del ancho para móviles grandes */
+    margin-left: 6%; /* Ajuste del margen izquierdo para móviles grandes */
+  }
+}
+
+/* Para teléfonos móviles pequeños (hasta 480px) */
+@media (max-width: 480px) {
+  .parrafo11 {
+    font-size: 16px; /* Ajuste del tamaño de la fuente para móviles pequeños */
+    width: 90%; /* Ajuste del ancho para móviles pequeños */
+    margin-left: 7%; /* Ajuste del margen izquierdo para móviles pequeños */
+  }
+}
+
+@media (max-width: 1024px) {
+  .adaptabilidad21 {
+    height: 180px;
+    width: 280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .adaptabilidad21 {
+    height: 160px;
+    width: 260px;
+  }
+}
+
+@media (max-width: 600px) {
+  .adaptabilidad21 {
+    height: 140px;
+    width: 240px;
+  }
+}
+
+@media (max-width: 480px) {
+  .adaptabilidad21 {
+    height: 120px;
+    width: 220px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .parrafo12 {
+    font-size: 24px;
+    width: 60%;
+    margin-left: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .parrafo12 {
+    font-size: 20px;
+    width: 70%;
+    margin-left: 22%;
+  }
+}
+
+@media (max-width: 600px) {
+  .parrafo12 {
+    font-size: 18px;
+    width: 80%;
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 480px) {
+  .parrafo12 {
+    font-size: 16px;
+    width: 90%;
+    margin-left: 18%;
+  }
+}
+@media (max-width: 1024px) {
+  .adaptabilidad23 {
+    height: 180px;
+    width: 230px;
+    margin-left: 16%;
+  }
+}
+
+@media (max-width: 768px) {
+  .adaptabilidad23 {
+    height: 160px;
+    width: 210px;
+    margin-left: 14%;
+  }
+}
+
+@media (max-width: 600px) {
+  .adaptabilidad23 {
+    height: 140px;
+    width: 190px;
+    margin-left: 12%;
+  }
+}
+
+@media (max-width: 480px) {
+  .adaptabilidad23 {
+    height: 120px;
+    width: 170px;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .colocacionparte5 {
+    margin-top: 6%;
+  }
+}
+
+@media (max-width: 768px) {
+  .colocacionparte5 {
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .colocacionparte5 {
+    margin-top: 4%;
+  }
+}
+
+@media (max-width: 480px) {
+  .colocacionparte5 {
+    margin-top: 3%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .textoequipo {
+    font-size: 24px;
+    width: 75%;
+    margin-left: 12.5%;
+  }
+}
+@media (max-width: 768px) {
+  .textoequipo {
+    font-size: 20px;
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+@media (max-width: 600px) {
+  .textoequipo {
+    font-size: 18px;
+    width: 85%;
+    margin-left: 7.5%;
+  }
+}
+@media (max-width: 480px) {
+  .textoequipo {
+    font-size: 16px;
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .logo1 {
+    width: 350px;
+    height: 175px;
+    margin: 0 171px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo1 {
+    width: 300px;
+    height: 150px;
+    margin: 0 151px;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo1 {
+    width: 250px;
+    height: 125px;
+    margin: 0 131px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo1 {
+    width: 200px;
+    height: 100px;
+    margin: 0 111px;
+  }
+}
+@media (max-width: 1024px) {
+  .adaptabilidad23 {
+    height: 180px;
+    width: 230px;
+    margin-left: 16%;
+  }
+}
+
+@media (max-width: 768px) {
+  .adaptabilidad23 {
+    height: 160px;
+    width: 210px;
+    margin-left: 14%;
+  }
+}
+
+@media (max-width: 600px) {
+  .adaptabilidad23 {
+    height: 140px;
+    width: 190px;
+    margin-left: 12%;
+  }
+}
+
+@media (max-width: 480px) {
+  .adaptabilidad23 {
+    height: 120px;
+    width: 170px;
+    margin-left: 10%;
+  }
+}
+@media (max-width: 1024px) {
+  .colocacionparte5 {
+    margin-top: 6%;
+  }
+}
+
+@media (max-width: 768px) {
+  .colocacionparte5 {
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .colocacionparte5 {
+    margin-top: 4%;
+  }
+}
+
+@media (max-width: 480px) {
+  .colocacionparte5 {
+    margin-top: 3%;
+  }
+}
+@media (max-width: 1024px) {
+  .textoequipo {
+    font-size: 24px;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .textoequipo {
+    font-size: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+}
+
+@media (max-width: 600px) {
+  .textoequipo {
+    font-size: 18px;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+}
+
+@media (max-width: 480px) {
+  .textoequipo {
+    font-size: 16px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+}
+@media (max-width: 1024px) {
+  .logo1 {
+    width: 350px;
+    height: 175px;
+    margin: 0 auto; /* Centra el logo */
+  }
+}
+
+@media (max-width: 768px) {
+  .logo1 {
+    width: 300px;
+    height: 150px;
+    margin: 0 auto; /* Centra el logo */
+  }
+}
+
+@media (max-width: 600px) {
+  .logo1 {
+    width: 250px;
+    height: 125px;
+    margin: 0 auto; /* Centra el logo */
+  }
+}
+
+@media (max-width: 480px) {
+  .logo1 {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto; /* Centra el logo */
+  }
+}
+@media (max-width: 1024px) {
+  .espacio-trabajadores {
+    margin-bottom: 4%;
+  }
+}
+
+@media (max-width: 768px) {
+  .espacio-trabajadores {
+    margin-bottom: 3%;
+  }
+}
+
+@media (max-width: 600px) {
+  .espacio-trabajadores {
+    margin-bottom: 2%;
+  }
+}
+
+@media (max-width: 480px) {
+  .espacio-trabajadores {
+    margin-bottom: 1%;
+  }
+}
+@media (max-width: 1024px) {
+  .colocarFormulario {
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .colocarFormulario {
+    margin-bottom: 4%;
+  }
+}
+
+@media (max-width: 600px) {
+  .colocarFormulario {
+    margin-bottom: 3%;
+  }
+}
+
+@media (max-width: 480px) {
+  .colocarFormulario {
+    margin-bottom: 2%;
+  }
+}
+@media (max-width: 1024px) {
+  .contacto {
+    max-width: 10%;
+    margin-left: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacto {
+    max-width: 15%;
+    margin-left: 42.5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .contacto {
+    max-width: 20%;
+    margin-left: 40%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contacto {
+    max-width: 25%;
+    margin-left: 37.5%;
+  }
+}
+@media (max-width: 1024px) {
+  .triangulo {
+    margin-top: 5%;
+  }
+}
+
+/* Para tabletas (hasta 768px) */
+@media (max-width: 768px) {
+  .triangulo {
+    margin-top: 4%;
+  }
+}
+
+/* Para teléfonos móviles grandes (hasta 600px) */
+@media (max-width: 600px) {
+  .triangulo {
+    margin-top: 3%;
+  }
+}
+
+/* Para teléfonos móviles pequeños (hasta 480px) */
+@media (max-width: 480px) {
+  .triangulo {
+    margin-top: 2%;
+    width: 50%;
+
+    height: 30%;
+  }
+}
+/* Para monitores y laptops (1024px a 768px) */
+@media (max-width: 1024px) {
+  .buttonSaberMas1 {
+    padding: 1.8%;
+    border-radius: 90px;
+  }
+}
+
+/* Para tabletas (768px a 600px) */
+@media (max-width: 768px) {
+  .buttonSaberMas1 {
+    padding: 1.6%;
+    border-radius: 80px;
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .buttonSaberMas1 {
+    padding: 1.4%;
+    border-radius: 70px;
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .buttonSaberMas1 {
+    padding: 1.2%;
+    border-radius: 60px;
+  }
+}
+/* Para monitores y laptops (1024px a 768px) */
+@media (max-width: 1024px) {
+  .buttonSaberMas {
+    padding: 1.8%;
+    border-radius: 90px;
+  }
+}
+
+/* Para tabletas (768px a 600px) */
+@media (max-width: 768px) {
+  .buttonSaberMas {
+    padding: 1.6%;
+    border-radius: 80px;
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .buttonSaberMas {
+    padding: 1.4%;
+    border-radius: 70px;
+  }
+}
+@media (max-width: 480px) {
+  .buttonSaberMas {
+    padding: 1.2%;
+border-radius: 60px;
+  }
+}
+/* Para monitores y laptops (1024px a 768px) */
+@media (max-width: 1024px) {
+  .espacio-trabajadores {
+    margin-bottom: 4.5%;
+  }
+
+  .colocarFormulario {
+    padding-bottom: 5.5%;
+  }
+}
+
+/* Para tabletas (768px a 600px) */
+@media (max-width: 768px) {
+  .espacio-trabajadores {
+    margin-bottom: 4%;
+  }
+
+  .colocarFormulario {
+    padding-bottom: 5%;
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .espacio-trabajadores {
+    margin-bottom: 3.5%;
+  }
+
+  .colocarFormulario {
+    padding-bottom: 4.5%;
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .espacio-trabajadores {
+    margin-bottom: 3%;
+  }
+
+  .colocarFormulario {
+    padding-bottom: 4%;
+  }
+}
+/* Para monitores y laptops (1024px a 768px) */
+@media (max-width: 1024px) {
+  .contacto {
+    max-width: 9%; /* Aumenta un poco el tamaño para pantallas más pequeñas */
+    margin-left: 45.5%; /* Ajusta la posición horizontal */
+    margin-top: -3.5%; /* Ajusta la posición vertical */
+  }
+}
+
+/* Para tabletas (768px a 600px) */
+@media (max-width: 768px) {
+  .contacto {
+    max-width: 11%;
+    margin-left: 45%;
+    margin-top: -3%;
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .contacto {
+    max-width: 13%;
+    margin-left: 43.5%;
+    margin-top: -2.5%;
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .contacto {
+    max-width: 15%;
+    margin-left: 42.5%;
+    margin-top: -2%;
+  }
+}
+@media (max-width: 1024px) {
+  .noticias {
+    padding-top: 4.5%;
+    padding-bottom: 9%;
+  }
+}
+
+/* Para tabletas (768px a 600px) */
+@media (max-width: 768px) {
+  .noticias {
+    padding-top: 4%;
+    padding-bottom: 8%;
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .noticias {
+    padding-top: 3.5%;
+    padding-bottom: 7%;
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .noticias {
+    padding-top: 3%;
+    padding-bottom: 6%;
+  }
+}
+/* Para monitores y laptops (1024px a 768px) */
+@media (max-width: 1024px) {
+  .equipo23 {
+    max-width: 10%;
+    margin-bottom: 1.5%;
+  }
+}
+
+/* Para tabletas (768px a 600px) */
+@media (max-width: 768px) {
+  .equipo23 {
+    max-width: 15%;
+    margin-bottom: 2%;
+  }
+}
+@media (max-width: 600px) {
+  .equipo23{
+    max-width: 20%;
+margin-bottom: 2.5%;
+  }}
+
+  @media (max-width: 480px) {
+    .equipo23 {
+    max-width: 25%;
+    margin-bottom: 3%;
+    }
+    }
+
+
+    @media (max-width: 1024px) {
+      .logotipo1 {
+        justify-content: space-around; /* Espacio distribuido con márgenes iguales alrededor de los elementos */
+      }
+    }
+    
+    /* Para tabletas (768px a 600px) */
+    @media (max-width: 768px) {
+      .logotipo1 {
+        justify-content: center; /* Centra los elementos dentro del contenedor */
+      }
+    }
+    
+    /* Para teléfonos móviles grandes (600px a 480px) */
+    @media (max-width: 600px) {
+      .logotipo1 {
+        flex-direction: column; /* Organiza los elementos en una columna */
+        align-items: center; /* Alinea los elementos al centro en la dirección transversal */
+      }
+    }
+    
+    /* Para teléfonos móviles pequeños (menos de 480px) */
+    @media (max-width: 480px) {
+      .logotipo1 {
+        /* Aquí puedes hacer ajustes adicionales si son necesarios */
+      }
+    } 

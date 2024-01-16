@@ -1,0 +1,644 @@
+.colocacion-trabajadores {
+    padding-left: 6cm;
+    display: grid;
+    grid-template-columns: repeat(
+      5,
+      1fr
+    ); /* Crea 5 columnas, el número máximo de elementos en una fila */
+    grid-template-rows: auto auto auto; /* 3 filas */
+    grid-gap: 5px; /* Espacio entre filas y columnas */
+    grid-template-areas:
+      "trabajador1 trabajador2 trabajador3 . ."
+      "trabajador4 trabajador5 trabajador6 trabajador7 trabajador8"
+      "trabajador9 trabajador10 trabajador11 trabajador12 trabajador13";
+  }
+  
+  /* Estilos para cada trabajador */
+  .trabajador1 {
+    grid-area: trabajador1;
+    width: 200px;
+    height: 200px;
+    margin-left: 101%;
+    position: relative; /* Establece como contenedor relativo */
+    display: inline-block;
+  }
+  .trabajador2 {
+    grid-area: trabajador2;
+    width: 200px;
+    height: 200px;
+    margin-left: 101%;
+    position: relative; /* Establece como contenedor relativo */
+    display: inline-block;
+  }
+  .trabajador3 {
+    grid-area: trabajador3;
+    width: 200px;
+    height: 200px;
+    margin-left: 101%;
+    position: relative; /* Establece como contenedor relativo */
+    display: inline-block;
+  }
+  .trabajador4 {
+    grid-area: trabajador4;
+    width: 200px;
+    height: 200px;
+    position: relative; /* Establece como contenedor relativo */
+    display: inline-block;
+  }
+  .trabajador5 {
+    grid-area: trabajador5;
+    width: 200px;
+    height: 200px;
+    position: relative; /* Establece como contenedor relativo */
+    display: inline-block;
+  }
+  .trabajador6 {
+    grid-area: trabajador6;
+    width: 200px;
+    height: 200px;
+    position: relative; /* Establece como contenedor relativo */
+    display: inline-block;
+  }
+  .trabajador7 {
+    grid-area: trabajador7;
+    width: 200px;
+    height: 200px;
+    position: relative; /* Establece como contenedor relativo */
+    display: inline-block;
+  }
+  .trabajador8 {
+    grid-area: trabajador8;
+    width: 200px;
+    height: 200px;
+    position: relative; /* Establece como contenedor relativo */
+    display: inline-block;
+  }
+  
+  .trabajador9 {
+    grid-area: trabajador9;
+    width: 200px;
+    height: 200px;
+    position: relative; /* Establece como contenedor relativo */
+    display: inline-block;
+  }
+  .trabajador10 {
+    grid-area: trabajador10;
+    width: 200px;
+    height: 200px;
+    position: relative; /* Establece como contenedor relativo */
+    display: inline-block;
+  }
+  .trabajador11 {
+    grid-area: trabajador11;
+    width: 200px;
+    height: 200px;
+    position: relative; /* Establece como contenedor relativo */
+    display: inline-block;
+  }
+  .trabajador12 {
+    grid-area: trabajador12;
+    width: 200px;
+    height: 200px;
+    position: relative; /* Establece como contenedor relativo */
+    display: inline-block;
+  }
+  .trabajador13 {
+    grid-area: trabajador13;
+    width: 200px;
+    height: 200px;
+    position: relative; /* Establece como contenedor relativo */
+    display: inline-block;
+  }
+  /* Estilos para las imágenes */
+  .perdro1 {
+    width: 70%; /* O cualquier ancho deseado */
+    border-radius: 335%;
+  }
+  .manolo1 {
+    position: absolute; /* Posicionamiento absoluto respecto al contenedor relativo */
+    bottom: 60px; /* Ajusta la posición desde la parte inferior */
+    right: 60px; /* Ajusta la posición desde la derecha */
+    width: 40px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto; /* Mantiene la relación de aspecto del logo */
+  }
+  /* Estilos para los párrafos */
+  .text1 {
+    padding-top: 3%;
+    font-family: "Poppins", sans-serif;
+    color: #4c4e52;
+    margin-left: 4%;
+  }
+  @media (max-width: 1024px) {
+    .colocacion-trabajadores {
+      grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+      grid-template-areas:
+        "trabajador1 trabajador2 trabajador3 ."
+        "trabajador4 trabajador5 trabajador6 trabajador7"
+        "trabajador8 trabajador9 trabajador10 trabajador11"
+        "trabajador12 trabajador13 . .";
+    }
+  }
+  
+  /* Para tabletas (hasta 768px) */
+  @media (max-width: 768px) {
+    .colocacion-trabajadores {
+      padding-left: 4cm; /* Menor padding */
+      grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+      grid-template-areas:
+        "trabajador1 trabajador2 trabajador3"
+        "trabajador4 trabajador5 trabajador6"
+        "trabajador7 trabajador8 trabajador9"
+        "trabajador10 trabajador11 trabajador12"
+        "trabajador13 . .";
+    }
+  }
+  
+  /* Para teléfonos móviles grandes (hasta 600px) */
+  @media (max-width: 600px) {
+    .colocacion-trabajadores {
+      padding-left: 2cm; /* Aún menor padding */
+      grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+      grid-template-areas:
+        "trabajador1 trabajador2"
+        "trabajador3 trabajador4"
+        "trabajador5 trabajador6"
+        "trabajador7 trabajador8"
+        "trabajador9 trabajador10"
+        "trabajador11 trabajador12"
+        "trabajador13 .";
+    }
+  }
+  
+  /* Para teléfonos móviles pequeños (hasta 480px) */
+  @media (max-width: 480px) {
+    .colocacion-trabajadores {
+      padding-left: 1cm; /* El menor padding */
+      grid-template-columns: 1fr; /* 1 columna */
+      grid-template-areas:
+        "trabajador1"
+        "trabajador2"
+        "trabajador3"
+        /* ...continuar para todos los trabajadores... */
+        "trabajador13";
+    }
+  }
+  @media
+(max-width: 1024px) {
+.trabajador1 {
+width: 180px;
+height: 180px;
+margin-left: 50%;
+}
+}/* Para tabletas (768px a 600px) */
+@media (max-width: 768px) {
+  .trabajador1 {
+  width: 160px;
+  height: 160px;
+  margin-left: 40%;
+  }
+  }
+  
+  /* Para teléfonos móviles grandes (600px a 480px) */
+  @media (max-width: 600px) {
+  .trabajador1 {
+  width: 140px;
+  height: 140px;
+  margin-left: 30%;
+  }
+  }
+  
+  /* Para teléfonos móviles pequeños (menos de 480px) */
+  @media (max-width: 480px) {
+  .trabajador1 {
+  width: 120px;
+  height: 120px;
+  margin-left: 20%;
+  }
+  }
+
+
+
+
+  @media
+(max-width: 1024px) {
+.trabajador2 {
+width: 180px;
+height: 180px;
+margin-left: 50%;
+}
+}/* Para tabletas (768px a 600px) */
+@media (max-width: 768px) {
+  .trabajador2 {
+  width: 160px;
+  height: 160px;
+  margin-left: 40%;
+  }
+  }
+  
+  /* Para teléfonos móviles grandes (600px a 480px) */
+  @media (max-width: 600px) {
+  .trabajador2 {
+  width: 140px;
+  height: 140px;
+  margin-left: 30%;
+  }
+  }
+  
+  /* Para teléfonos móviles pequeños (menos de 480px) */
+  @media (max-width: 480px) {
+  .trabajador2 {
+  width: 120px;
+  height: 120px;
+  margin-left: 20%;
+  }
+  }
+
+
+  
+
+  @media
+(max-width: 1024px) {
+.trabajador3 {
+width: 180px;
+height: 180px;
+margin-left: 50%;
+}
+}/* Para tabletas (768px a 600px) */
+@media (max-width: 768px) {
+  .trabajador3 {
+  width: 160px;
+  height: 160px;
+  margin-left: 40%;
+  }
+  }
+  
+  /* Para teléfonos móviles grandes (600px a 480px) */
+  @media (max-width: 600px) {
+  .trabajador3 {
+  width: 140px;
+  height: 140px;
+  margin-left: 30%;
+  }
+  }
+  
+  /* Para teléfonos móviles pequeños (menos de 480px) */
+  @media (max-width: 480px) {
+  .trabajador3 {
+  width: 120px;
+  height: 120px;
+  margin-left: 20%;
+  }
+  }
+  /* Para monitores y laptops (1024px a 768px) */
+@media (max-width: 1024px) {
+  .trabajador4 {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+/* Para tabletas (768px a 600px) */
+@media (max-width: 768px) {
+  .trabajador4 {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .trabajador4 {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .trabajador4 {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+
+
+
+/* Para monitores y laptops (1024px a 768px) */
+@media (max-width: 1024px) {
+  .trabajador5 {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+/* Para tabletas (768px a 600px) */
+@media (max-width: 768px) {
+  .trabajador5 {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .trabajador5 {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .trabajador5 {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+
+
+/* Para monitores y laptops (1024px a 768px) */
+@media (max-width: 1024px) {
+  .trabajador6 {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+/* Para tabletas (768px a 600px) */
+@media (max-width: 768px) {
+  .trabajador6 {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .trabajador6 {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .trabajador6 {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+
+
+
+
+/* Para monitores y laptops (1024px a 768px) */
+@media (max-width: 1024px) {
+  .trabajador7 {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+/* Para tabletas (768px a 600px) */
+@media (max-width: 768px) {
+  .trabajador7 {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .trabajador7 {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .trabajador7 {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+
+
+
+
+/* Para monitores y laptops (1024px a 768px) */
+@media (max-width: 1024px) {
+  .trabajador8 {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+/* Para tabletas (768px a 600px) */
+@media (max-width: 768px) {
+  .trabajador8 {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .trabajador8 {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .trabajador8 {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+
+
+
+
+/* Para monitores y laptops (1024px a 768px) */
+@media (max-width: 1024px) {
+  .trabajador9 {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+/* Para tabletas (768px a 600px) */
+@media (max-width: 768px) {
+  .trabajador9 {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .trabajador9 {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .trabajador9 {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+
+
+
+
+
+
+/* Para monitores y laptops (1024px a 768px) */
+@media (max-width: 1024px) {
+  .trabajador10 {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+/* Para tabletas (768px a 600px) */
+@media (max-width: 768px) {
+  .trabajador10 {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .trabajador10 {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .trabajador10 {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+
+
+
+
+/* Para monitores y laptops (1024px a 768px) */
+@media (max-width: 1024px) {
+  .trabajado11 {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+/* Para tabletas (768px a 600px) */
+@media (max-width: 768px) {
+  .trabajado11 {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .trabajado11 {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .trabajado11 {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+
+
+
+/* Para monitores y laptops (1024px a 768px) */
+@media (max-width: 1024px) {
+  .trabajador12 {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+/* Para tabletas (768px a 600px) */
+@media (max-width: 768px) {
+  .trabajador12 {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .trabajador12 {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .trabajador12 {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+
+
+
+
+/* Para monitores y laptops (1024px a 768px) */
+@media (max-width: 1024px) {
+  .trabajador13 {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+/* Para tabletas (768px a 600px) */
+@media (max-width: 768px) {
+  .trabajador13 {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .trabajador13 {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .trabajador13 {
+    width: 120px;
+    height: 120px;
+  }
+}

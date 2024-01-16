@@ -1,0 +1,39 @@
+.formulario-estilo {
+    background-color: #5f6166; /* Fondo blanco */
+    padding: 20px; /* Espacio interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para efecto de sobresalir */
+    max-width: 1000px; /* Ancho máximo */
+    margin: 20px auto; /* Centrado y con margen */
+  }
+  .input-email,
+  .textarea-mensaje {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espacio interno */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ddd; /* Borde ligero */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Sombra suave */
+    margin-bottom: 15px; /* Espacio debajo de cada campo */
+  }
+  .boton-enviar {
+    background-color: #24d49e; /* Color de fondo */
+    color: white; /* Texto blanco */
+    padding: 10px 15px; /* Espacio interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de mano al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave al cambiar el color */
+    display: block; /* Hace que el botón sea un bloque */
+    margin: 0 auto;
+    width: 20%;
+  }
+  
+  .boton-enviar:hover {
+    background-color: #faa123; /* Color al pasar el mouse */
+  }
+  .formulario-estilo,
+  .formulario-estilo * {
+    font-family: "Poppins", sans-serif;
+    color: white;
+  }
+  

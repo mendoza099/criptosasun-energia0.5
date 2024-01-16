@@ -1,0 +1,39 @@
+.gale {
+    margin-left: 4%;
+    margin-top: -3%;
+  }
+  .mendo {
+    margin-top: -1cm;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .mario {
+    font-family: "poppins", sans-serif;
+    color: #4c4e52;
+    display: flex;
+    margin-left: 6%;
+    margin-bottom: 2%;
+    width: 90%;
+  }
+  .mario2 {
+    font-family: "poppins", sans-serif;
+    color: #4c4e52;
+    display: flex;
+    margin-left: 18%;
+    margin-bottom: 3%;
+    width: 80%;
+  }
+  .mario3 {
+    font-family: "poppins", sans-serif;
+    color: #4c4e52;
+    display: flex;
+    margin-left: 6%;
+    width: 90%;
+  }
+  .headerCustom {
+    background-image: url("https://res.cloudinary.com/dwkb2dk5r/image/upload/c_scale,w_25/v1705325489/Imagen1_1_1_1_l0o2kz.png");
+    background-repeat: no-repeat;
+  
+    padding-left: 28px;
+  }
+  

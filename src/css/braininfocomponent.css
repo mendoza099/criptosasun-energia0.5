@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.info {
+  font-family: "poppins", sans-serif;
+  color: #4c4e52;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; /* Esto distribuirá tus secciones de texto uniformemente */
+  background-image: url("https://res.cloudinary.com/dwkb2dk5r/image/upload/v1705166500/Dise%C3%B1o_sin_t%C3%ADtulo_8_nqiles.png");
+  background-size: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 7%;
+  margin-top: -3%;
+}
+
+.icononos {
+  background-image: url("https://res.cloudinary.com/dwkb2dk5r/image/upload/c_scale,w_25/v1704991665/Imagen1_1_1_qvqhew.png");
+  background-repeat: no-repeat;
+
+  padding-left: 28px;
+}
+.textoicononos1 {
+  width: 70%;
+  font-size: 20px;
+}
+.textoicononos2 {
+  width: 82%;
+  font-size: 20px;
+}
+.info-section {
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+/* Puedes añadir estilos específicos para cada sección si es necesario */
+#mca {
+  /* estilos específicos para el div MCA */
+  margin-right: 49%;
+}
+
+#dispositivos {
+  /* estilos específicos para el div de dispositivos */
+  margin-left: 62%;
+}
+
+.tamaño {
+  font-size: 18px;
+}
+li {
+  font-size: 20px;
+}
+@media screen and (max-width: 1024px) {
+  .textoicononos1 {
+    width: 70%; /* Aumentar el ancho para pantallas medianas */
+    font-size: 18px; /* Ligeramente más pequeño para equilibrar el diseño */
+  }
+}
+
+/* Media query para móviles */
+@media screen and (max-width: 600px) {
+  .textoicononos1 {
+    width: 80%; /* Aumentar aún más el ancho para pantallas pequeñas */
+    font-size: 16px; /* Aumentar el tamaño de fuente para mejorar la legibilidad */
+  }
+}
+@media screen and (max-width: 1024px) {
+  .textoicononos2 {
+    width: 85%; /* Aumentar ligeramente el ancho para pantallas medianas */
+    font-size: 18px; /* Reducir un poco el tamaño de la fuente */
+  }
+}
+
+/* Media query para móviles */
+@media screen and (max-width: 600px) {
+  .textoicononos2 {
+    width: 90%; /* Aumentar más el ancho para pantallas pequeñas */
+    font-size: 16px; /* Aumentar el tamaño de la fuente para mejor legibilidad */
+  }
+}
+@media (max-width: 1024px) {
+  .icononos {
+    background-image: url("https://res.cloudinary.com/dwkb2dk5r/image/upload/c_scale,w_24/v1704991665/Imagen1_1_1_qvqhew.png");
+    padding-left: 24px; /* Ajustar el padding para el tamaño reducido de la imagen */
+  }
+}
+
+/* Para teléfonos móviles grandes */
+@media (max-width: 768px) {
+  .icononos {
+    background-image: url("https://res.cloudinary.com/dwkb2dk5r/image/upload/c_scale,w_20/v1704991665/Imagen1_1_1_qvqhew.png");
+    padding-left: 20px; /* Ajustar para un tamaño aún más pequeño */
+  }
+}
+
+/* Para teléfonos móviles pequeños */
+@media (max-width: 600px) {
+  .icononos {
+    background-image: url("https://res.cloudinary.com/dwkb2dk5r/image/upload/c_scale,w_16/v1704991665/Imagen1_1_1_qvqhew.png");
+    padding-left: 16px; /* Ajustar para el tamaño más pequeño */
+  }
+}
+
+/* Opcional para teléfonos muy pequeños */
+@media (max-width: 480px) {
+  .icononos {
+    background-image: url("https://res.cloudinary.com/dwkb2dk5r/image/upload/c_scale,w_12/v1704991665/Imagen1_1_1_qvqhew.png");
+    padding-left: 12px; /* Ajustar para dispositivos muy pequeños */
+  }
+}

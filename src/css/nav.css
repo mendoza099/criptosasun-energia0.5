@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+.navbar-nav .nav-link {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
+.manoloo267 {
+  color: #4c4e52;
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 992px) {
+  .navbar-nav {
+      flex-direction: row; /* Elementos en fila */
+      justify-content: flex-start; /* Alineación a la izquierda */
+  }
+
+  .nav-item {
+      flex-grow: 1; /* Permite que los elementos crezcan para llenar el espacio disponible */
+      text-align: left; /* Alineación del texto a la izquierda */
+  }
+}
+
+/* Media query para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+  .navbar-nav {
+      flex-direction: column; /* Elementos en columna */
+  }
+
+  .nav-item {
+      width: 100%; /* Cada elemento ocupa el ancho completo */
+  }
+}

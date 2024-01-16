@@ -1,0 +1,57 @@
+.totalcuantica {
+    width: 70%;
+    margin-left: 17%;
+  }
+  
+  .blog-container {
+    display: flex;
+    flex-direction: column; /* Cambia a columna para apilar los bloques verticalmente */
+  }
+  
+  .blog-section {
+    display: flex; /* Mantiene imagen y contenido en la misma línea */
+    align-items: flex-start; /* Alinea elementos al inicio verticalmente */
+    margin-bottom: 20px; /* Espacio entre los bloques */
+    margin-top: 5%;
+  }
+  
+  .blog-image {
+    width: 30%; /* Ajusta el ancho de la imagen */
+    padding-right: 20px;
+  }
+  
+  .blog-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .blog-content {
+    width: 70%; /* Ajusta el ancho del contenido */
+  }
+  
+  .angelito22 {
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    color: #4c4e52;
+  }
+  
+  .jorgito34 {
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor .blog-image */
+    border-radius: 2000px;
+  }
+  
+  .blog-text {
+    max-height: 200px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .blog-text.expanded {
+    max-height: 1000px;
+  }
+  
+  .buttonSaberMas {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
