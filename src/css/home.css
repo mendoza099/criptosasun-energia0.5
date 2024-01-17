@@ -39,7 +39,7 @@
   margin-left: 2%;
 }
 .triangulo {
-  margin-top: 6%;
+  margin-top: 7%;
 }
 .cuadro1 {
   /* Ajustes para el contenedor de texto, como el ancho */
@@ -1074,28 +1074,28 @@
 }
 @media (max-width: 1024px) {
   .triangulo {
-    margin-top: 5%;
+    margin-top: 6%;
   }
 }
 
 /* Para tabletas (hasta 768px) */
 @media (max-width: 768px) {
   .triangulo {
-    margin-top: 4%;
+    margin-top: 5%;
   }
 }
 
 /* Para teléfonos móviles grandes (hasta 600px) */
 @media (max-width: 600px) {
   .triangulo {
-    margin-top: 3%;
+    margin-top: 4%;
   }
 }
 
 /* Para teléfonos móviles pequeños (hasta 480px) */
 @media (max-width: 480px) {
   .triangulo {
-    margin-top: 2%;
+    margin-top: 3%;
     width: 50%;
 
     height: 30%;

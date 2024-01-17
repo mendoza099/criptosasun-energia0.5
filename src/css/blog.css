@@ -5,11 +5,11 @@
 
 .flip-card {
   background-color: transparent;
-  width: 690px;
-  height: 454px;
+  width: 750px;
+  height: 464px;
   perspective: 1000px;
   font-family: sans-serif;
-  margin: 66px;
+  margin: 60px;
   
  
 }
@@ -74,6 +74,7 @@ padding: 5%;
 }
 .felix1{
   padding: 5%;
+  
 }
 @media (max-width: 768px) {
   .blog-container {
@@ -189,14 +190,14 @@ padding: 5%;
 /* Para tabletas más pequeñas (768px a 600px) */
 @media (max-width: 768px) {
   .felix1 {
-      padding: 3.5%; /* Padding ajustado para tabletas más pequeñas */
+      padding: 4%; /* Padding ajustado para tabletas más pequeñas */
   }
 }
 
 /* Para teléfonos móviles grandes (600px a 480px) */
 @media (max-width: 600px) {
   .felix1 {
-      padding: 3%; /* Padding ajustado para teléfonos móviles grandes */
+      padding: 5%; /* Padding ajustado para teléfonos móviles grandes */
       
   }
 }
@@ -204,7 +205,7 @@ padding: 5%;
 /* Para teléfonos móviles pequeños (menos de 480px) */
 @media (max-width: 480px) {
   .felix1 {
-      padding: 2.5%; /* Padding ajustado para teléfonos móviles pequeños */
+      padding: 3%; /* Padding ajustado para teléfonos móviles pequeños */
       width: 270px;
       height: 100px;
       margin-top: -300px;
