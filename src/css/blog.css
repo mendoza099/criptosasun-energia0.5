@@ -64,6 +64,7 @@
   color: white;
   transform: rotateY(180deg);
   padding: 16px;
+  text-align: left; 
 }
 .external-link{
   color: #4C4E52;
@@ -106,10 +107,7 @@ padding: 5%;
     font-size: 1em; /* Tamaño de fuente más pequeño para teléfonos móviles */
   }
 
-  .flip-card-inner {
-    /* Opcionalmente, podrías deshabilitar el giro en dispositivos móviles si afecta la usabilidad */
-  }
-
+ 
   .external-link, .felix {
     padding: 3%; /* Padding más pequeño para adaptarse a pantallas más pequeñas */
   }

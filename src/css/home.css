@@ -19,14 +19,14 @@
 .parrafo1 {
   background-image: url("https://res.cloudinary.com/dwkb2dk5r/image/upload/c_scale,w_24/v1705325489/Imagen1_1_1_1_l0o2kz.png");
   background-repeat: no-repeat;
-  background-position: 0 11%;
+  background-position: 0 7%;
   padding-left: 28px;
   
 }
 
 .parrafo1 {
   font-family: "Poppins", sans-serif;
-  font-size: 38px;
+  font-size: 30px;
   color: #4c4e52;
   margin-top: 3%;
   margin-left: 12%;
@@ -57,10 +57,10 @@
 }
 .texto2 {
   font-family: "Poppins", sans-serif;
-  font-size: 28px;
+  font-size: 24px;
   color: #4c4e52;
   width: 40%;
-  margin-left: 15%;
+  margin-left: 17%;
   margin-right: 28%;
 }
 
@@ -91,11 +91,13 @@
 }
 .alex{
   list-style-type: none;
+  margin-left: -7%;
 }
 .alex-tipo{
   padding-left: 30px; /* Añade un espacio a la izquierda para dejar espacio para la imagen */
   background: url('https://res.cloudinary.com/dwkb2dk5r/image/upload/c_scale,w_25/v1704649490/B%C3%81SICO_ISOTIPO-VECTORIZADO_phclc2.png') no-repeat left center;
-  font-size: 22px;
+  font-size: 18px;
+  background-position: 0 8%;
 }
 .titulo4 {
   font-family: "Poppins", sans-serif;
@@ -185,7 +187,7 @@
   height: 200px;
 }
 .imagen-boton {
-  margin: 0 191px;
+
   margin-top: -2%;
   display: flex;
   flex-direction: column;
@@ -194,6 +196,8 @@
 .logotipo1 {
   display: flex;
   justify-content: space-between; /* Distribuye el espacio de manera uniforme */
+  max-width: 100%; /* Asegura que no supera el ancho del contenedor padre */
+  width: 75%; 
 }
 .buttonSaberMas1 {
   border-radius: 100px;
@@ -298,7 +302,7 @@
 }
 @media (max-width: 1024px) {
   .parrafo1 {
-    font-size: 28px;
+    font-size: 20px;
     margin-left: 10%;
     width: 70%;
   }
@@ -359,7 +363,8 @@
 /* Para tabletas */
 @media (max-width: 768px) {
   .cuadro1 {
-    width: 85%; /* Ajusta el ancho para tabletas */
+    width: 85%;
+     /* Ajusta el ancho para tabletas */
   }
 }
 
@@ -400,6 +405,14 @@
 @media (max-width: 480px) {
   .texto1 {
     width: 100%; /* Ajusta el ancho para teléfonos pequeños */
+  }
+}
+@media (max-width: 1024px) {
+  .texto2 {
+    font-size: 16px;
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 10%;
   }
 }
 @media (max-width: 768px) {
@@ -1288,6 +1301,7 @@ margin-bottom: 2.5%;
     @media (max-width: 1024px) {
       .logotipo1 {
         justify-content: space-around; /* Espacio distribuido con márgenes iguales alrededor de los elementos */
+        width: 100%;
       }
     }
     
@@ -1295,6 +1309,7 @@ margin-bottom: 2.5%;
     @media (max-width: 768px) {
       .logotipo1 {
         justify-content: center; /* Centra los elementos dentro del contenedor */
+        width: 100%;
       }
     }
     
@@ -1303,6 +1318,7 @@ margin-bottom: 2.5%;
       .logotipo1 {
         flex-direction: column; /* Organiza los elementos en una columna */
         align-items: center; /* Alinea los elementos al centro en la dirección transversal */
+        width: 100%;
       }
     }
     

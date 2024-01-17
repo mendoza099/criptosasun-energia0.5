@@ -1,5 +1,5 @@
 .colocacion-trabajadores {
-    padding-left: 5cm;
+    padding-left: 3.5cm;
     display: grid;
     grid-template-columns: repeat(
       5,
@@ -206,16 +206,16 @@
   /* Para tabletas (hasta 768px) */
   @media (max-width: 768px) {
     .colocacion-trabajadores {
-      padding-left: 4cm; /* Menor padding */
-      grid-template-columns: repeat(3, 1fr); /* 3 columnas */
-      grid-template-areas:
-        "trabajador1 trabajador2 trabajador3"
-        "trabajador4 trabajador5 trabajador6"
-        "trabajador7 trabajador8 trabajador9"
-        "trabajador10 trabajador11 trabajador12"
-        "trabajador13 . .";
+        padding-left: 3cm; /* Ajusta el padding a 4cm */
+        grid-template-columns: repeat(3, 1fr); /* Cambia a 3 columnas */
+        grid-template-areas:
+          "trabajador1 trabajador2 trabajador3"
+          "trabajador4 trabajador5 trabajador6"
+          "trabajador7 trabajador8 trabajador9"
+          "trabajador10 trabajador11 trabajador12"
+          "trabajador13 . .";
     }
-  }
+}
   
   /* Para teléfonos móviles grandes (hasta 600px) */
   @media (max-width: 600px) {

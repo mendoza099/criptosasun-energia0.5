@@ -56,13 +56,16 @@ export const Home = () => {
 				<div className="titulo3">
 					<iframe className="triangulo" width="560" height="350" src="https://www.youtube.com/embed/-cr9DzMvInM?si=u3BMVvxtm3hEBsW8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
 					<p className="titulo4">Nuestro <strong>objetivo</strong>  es desarrollar sistemas que generen <strong>riqueza</strong> para toda la
-						sociedad, a través de la <strong>tecnología</strong>.<br></br>
+						sociedad, a través de la <strong>tecnología</strong>.<br></br><br></br>
 						<ul className="alex">
-							<li className="alex-tipo" >SABEMOS...<br></br> SABEMOS que <strong>el futuro se construye cada día</strong>, y esa es la ilusión que ilumina
-						nuestro trabajo.</li>
-						<li className="alex-tipo">CREEMOS...<br></br> CREEMOS en la <strong>honestidad</strong> , el <strong>trabajo</strong> , el <strong>esfuerzo</strong> , la <strong>constancia</strong> , y el
-						<strong> compromiso</strong> , como pilares de nuestra empresa.</li>
-						<li className="alex-tipo">	QUEREMOS...<br></br> QUEREMOS formar parte del desarrollo de las personas, las instituciones y la
+
+							<li className="alex-tipo" >SABEMOS... <br></br> que <strong>el futuro se construye cada día</strong>, y esa es la ilusión que ilumina
+						nuestro trabajo.</li><br></br>
+
+						<li className="alex-tipo">CREEMOS...<br></br> en la <strong>honestidad</strong> , el <strong>trabajo</strong> , el <strong>esfuerzo</strong> , la <strong>constancia</strong> , y el
+						<strong> compromiso</strong> , como pilares de nuestra empresa.</li><br></br>
+
+						<li className="alex-tipo">	QUEREMOS...<br></br>  formar parte del desarrollo de las personas, las instituciones y la
 						sociedad, contribuyendo a <strong>crear un mundo cada vez más sostenible</strong> .</li>
 						</ul>
 						
