@@ -8,7 +8,7 @@
 .titulo1 {
   display: flex;
   justify-content: center;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
   font-family: "Poppins", sans-serif;
   color: #4c4e52;
   font-weight: bold;
@@ -17,10 +17,11 @@
 
 .icono1,
 .parrafo1 {
-  background-image: url("https://res.cloudinary.com/dwkb2dk5r/image/upload/v1703161913/rec_vh9w5l.png");
+  background-image: url("https://res.cloudinary.com/dwkb2dk5r/image/upload/c_scale,w_24/v1705325489/Imagen1_1_1_1_l0o2kz.png");
   background-repeat: no-repeat;
-  background-position: 0 17%;
+  background-position: 0 11%;
   padding-left: 28px;
+  
 }
 
 .parrafo1 {
@@ -64,7 +65,7 @@
 }
 
 .parte2 {
-  margin-top: -30px;
+  margin-top: -3px;
   display: flex;
   flex-direction: column; /* Organiza los hijos en una columna */
   align-items: center; /* Centra los elementos horizontalmente */
@@ -86,13 +87,22 @@
   display: flex;
   margin-left: 12%;
   margin-bottom: 8%;
+  margin-top: -3%;
+}
+.alex{
+  list-style-type: none;
+}
+.alex-tipo{
+  padding-left: 30px; /* Añade un espacio a la izquierda para dejar espacio para la imagen */
+  background: url('https://res.cloudinary.com/dwkb2dk5r/image/upload/c_scale,w_25/v1704649490/B%C3%81SICO_ISOTIPO-VECTORIZADO_phclc2.png') no-repeat left center;
+  font-size: 22px;
 }
 .titulo4 {
   font-family: "Poppins", sans-serif;
   font-size: 22px;
   color: #4c4e52;
   width: 60%;
-  margin-top: 7%;
+  margin-top: 6%;
   padding-left: 8%;
 }
 .parte3 {
@@ -190,14 +200,16 @@
   padding: 2%;
   color: white;
   background-color: #faa123;
-  border-color: white;
+  border-color: #faa123;
+  border: none; 
 }
 .buttonSaberMas {
   border-radius: 100px;
   padding: 2%;
   color: white;
   background-color: #24d49e;
-  border-color: white;
+  border-color: #24d49e;
+  border: none; 
 }
 .espacio-trabajadores {
   margin-bottom: 5%;
@@ -219,6 +231,18 @@
 .equuipo23 {
   max-width: 7%;
   margin-bottom: 1%;
+}
+.buttonVolver{
+  display: block;
+  margin: 0 auto; /* Esto centrará el botón horizontalmente */
+  border-radius: 100px;
+  padding: 13px;
+  color: white;
+  
+  background-color: #4D4E52;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
 }
 @media (max-width: 1024px) {
   .inicio {
@@ -455,8 +479,16 @@
 /* Para teléfonos móviles pequeños */
 @media (max-width: 480px) {
   .titulo2 {
-    font-size: 14px;
-    width: 100%;
+    font-size: 16px; /* Tamaño de fuente más pequeño para una mejor legibilidad en pantallas pequeñas */
+    width: 100%; /* Utiliza todo el ancho disponible */
+  }
+}
+
+/* Ajustes para dispositivos muy pequeños (dispositivos con anchos de hasta 320px) */
+@media (max-width: 320px) {
+  .titulo2 {
+    font-size: 12px; /* Tamaño de fuente aún más pequeño para dispositivos muy pequeños */
+    /* El ancho ya está ajustado al 100% en la consulta de medios anterior */
   }
 }
 @media (max-width: 1024px) {
@@ -475,8 +507,16 @@
 /* Para teléfonos móviles grandes */
 @media (max-width: 600px) {
   .titulo3 {
-    margin-left: 5%; /* Margen más pequeño para teléfonos grandes */
+    flex-direction: column; /* Cambia la dirección del flex a columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    margin-left: 0; /* Elimina el margen izquierdo para centrar en dispositivos móviles */
   }
+
+  .triangulo {
+    width: 100%; /* Hace que el iframe ocupe el ancho completo */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+  }
+
 }
 
 /* Para teléfonos móviles pequeños */
@@ -519,7 +559,7 @@
 /* Para teléfonos móviles pequeños */
 @media (max-width: 480px) {
   .titulo4 {
-    font-size: 14px; /* Disminuye el tamaño de la fuente */
+    font-size: 16px; /* Disminuye el tamaño de la fuente */
     width: 100%; /* Ajusta el ancho al 100% del contenedor */
     margin-top: 3%; /* Establece un margen superior */
     padding-left: 4%; /* Añade un relleno izquierdo */
@@ -702,8 +742,8 @@
 @media (max-width: 480px) {
   .parrafo12 {
     font-size: 16px;
-    width: 90%;
-    margin-left: 18%;
+    width: 100%;
+    margin-left: 7%;
   }
 }
 @media (max-width: 1024px) {
@@ -1270,5 +1310,84 @@ margin-bottom: 2.5%;
     @media (max-width: 480px) {
       .logotipo1 {
         /* Aquí puedes hacer ajustes adicionales si son necesarios */
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%; 
       }
     } 
+    @media (max-width: 768px) {
+      .imagen-boton {
+        margin: 0 10%; /* Reducir el margen lateral */
+        margin-top: 0; /* Ajustar el margen superior */
+      }
+    }
+    
+    /* Ajustes para teléfonos móviles grandes (dispositivos con anchos de hasta 600px) */
+    @media (max-width: 600px) {
+      .imagen-boton {
+        margin: 0 5%; /* Reducir aún más el margen lateral */
+        margin-top: 5%; /* Ajustar el margen superior */
+      }
+    }
+    
+    /* Ajustes para teléfonos móviles pequeños (dispositivos con anchos de hasta 480px) */
+    @media (max-width: 480px) {
+      .imagen-boton {
+        margin: 0 2%; /* Reducir al mínimo el margen lateral */
+        margin-top: 10%; /* Aumentar el margen superior */
+      }
+    }
+    
+    /* Ajustes para dispositivos muy pequeños (dispositivos con anchos de hasta 320px) */
+    @media (max-width: 320px) {
+      .imagen-boton {
+        margin: 0 1%; /* Margen lateral mínimo */
+        margin-top: 15%; /* Aumentar más el margen superior */
+      }
+    }
+
+    @media (max-width: 768px) {
+  .alex-tipo {
+    padding-left: 20px; /* Reducir el espacio a la izquierda */
+    font-size: 20px; /* Reducir el tamaño de fuente */
+  }
+}
+
+/* Ajustes para teléfonos móviles grandes (dispositivos con anchos de hasta 600px) */
+@media (max-width: 600px) {
+  .alex-tipo {
+    padding-left: 20px; /* Reducir aún más el espacio a la izquierda */
+    font-size: 18px; /* Reducir aún más el tamaño de fuente */
+  }
+}
+
+/* Ajustes para teléfonos móviles pequeños (dispositivos con anchos de hasta 480px) */
+@media (max-width: 480px) {
+  .alex-tipo {
+    padding-left: 30px; /* Reducir al mínimo el espacio a la izquierda */
+    font-size: 16px; /* Reducir al mínimo el tamaño de fuente */
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .equuipo23 {
+    max-width: 10%; /* Ajustar el ancho máximo para tablets */
+    margin-bottom: 2%; /* Ajustar el margen inferior para tablets */
+  }
+}
+
+/* Ajustes para teléfonos móviles grandes (dispositivos con anchos de hasta 600px) */
+@media (max-width: 600px) {
+  .equuipo23 {
+    max-width: 15%; /* Ajustar el ancho máximo para teléfonos móviles grandes */
+    margin-bottom: 3%; /* Ajustar el margen inferior para teléfonos móviles grandes */
+  }
+}
+
+/* Ajustes para teléfonos móviles pequeños (dispositivos con anchos de hasta 480px) */
+@media (max-width: 480px) {
+  .equuipo23 {
+    max-width: 20%; /* Ajustar el ancho máximo para teléfonos móviles pequeños */
+    margin-bottom: 4%; /* Ajustar el margen inferior para teléfonos móviles pequeños */
+  }
+}

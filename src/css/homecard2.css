@@ -1,27 +1,28 @@
 .gale {
     margin-left: 4%;
     margin-top: -3%;
+    max-width: 100%;
+    height: auto;
   }
   .mendo {
-    margin-top: -1cm;
-    padding-left: 4%;
-    padding-right: 4%;
+    max-width: 100%; /* Establecer el ancho máximo al 100% para que la imagen sea responsive */
+    height: auto; /* Hacer que la altura se ajuste automáticamente para mantener la proporción */
+    display: block; /* Asegurarse de que la imagen sea un elemento de bloque */
+    margin: 0 auto;
   }
   .mario {
     font-family: "poppins", sans-serif;
     color: #4c4e52;
     display: flex;
     margin-left: 6%;
-    margin-bottom: 2%;
     width: 90%;
   }
   .mario2 {
     font-family: "poppins", sans-serif;
     color: #4c4e52;
     display: flex;
-    margin-left: 18%;
-    margin-bottom: 3%;
-    width: 80%;
+    margin-left: 6%;
+    width: 90%;
   }
   .mario3 {
     font-family: "poppins", sans-serif;
@@ -36,4 +37,149 @@
   
     padding-left: 28px;
   }
+  .infoSectionCustom{
+    max-width: 100%; /* Establecer el ancho máximo al 100% para que la imagen sea responsive */
+    height: auto; /* Hacer que la altura se ajuste automáticamente para mantener la proporción */
+    display: block; /* Asegurarse de que la imagen sea un elemento de bloque */
+    margin: 0 auto;
+  }
+  .mendo1 {
+    max-width: 100%; /* Establecer el ancho máximo al 100% para que la imagen sea responsive */
+    height: auto; /* Hacer que la altura se ajuste automáticamente para mantener la proporción */
+    display: block; /* Asegurarse de que la imagen sea un elemento de bloque */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+  }
+  @media (max-width: 768px) {
+    .gale {
+      margin-left: 0; /* Eliminar el margen izquierdo para tablets */
+      margin-top: 0; /* Eliminar el margen superior para tablets */
+    }
+  }
   
+  /* Ajustes para teléfonos móviles grandes (dispositivos con anchos de hasta 600px) */
+  @media (max-width: 600px) {
+    .gale {
+      margin-left: 0; /* Eliminar el margen izquierdo para teléfonos móviles grandes */
+      margin-top: 0; /* Eliminar el margen superior para teléfonos móviles grandes */
+    }
+  }
+  
+  /* Ajustes para teléfonos móviles pequeños (dispositivos con anchos de hasta 480px) */
+  @media (max-width: 480px) {
+    .gale {
+      margin-left: 0; /* Eliminar el margen izquierdo para teléfonos móviles pequeños */
+      margin-top: 0; /* Eliminar el margen superior para teléfonos móviles pequeños */
+    }
+  }
+  @media (max-width: 768px) {
+    .mendo {
+      margin-top: 0; /* Eliminar el margen superior para tablets */
+      padding-left: 2%; /* Reducir el relleno izquierdo para tablets */
+      padding-right: 2%; /* Reducir el relleno derecho para tablets */
+    }
+  }
+  
+  /* Ajustes para teléfonos móviles grandes (dispositivos con anchos de hasta 600px) */
+  @media (max-width: 600px) {
+    .mendo {
+      margin-top: 0; /* Eliminar el margen superior para teléfonos móviles grandes */
+      padding-left: 2%; /* Reducir el relleno izquierdo para teléfonos móviles grandes */
+      padding-right: 2%; /* Reducir el relleno derecho para teléfonos móviles grandes */
+      max-width: 100%; /* Establecer el ancho máximo al 100% para que la imagen sea responsive */
+      height: auto; /* Hacer que la altura se ajuste automáticamente para mantener la proporción */
+      display: block; /* Asegurarse de que la imagen sea un elemento de bloque */
+      margin: 0 auto;
+    }
+  }
+  
+  /* Ajustes para teléfonos móviles pequeños (dispositivos con anchos de hasta 480px) */
+  @media (max-width: 480px) {
+    .mendo {
+      margin-top: 0; /* Eliminar el margen superior para teléfonos móviles pequeños */
+      padding-left: 2%; /* Reducir el relleno izquierdo para teléfonos móviles pequeños */
+      padding-right: 2%; /* Reducir el relleno derecho para teléfonos móviles pequeños */
+      width: 100px;
+      height: 100px;
+    }
+  }
+ 
+
+  @media (max-width: 768px) {
+    .mario {
+      width: 100%; /* Hacer que el ancho sea del 100% para tablets */
+      margin-left: 0; /* Eliminar el margen izquierdo para tablets */
+    }
+  }
+  
+  /* Ajustes para teléfonos móviles grandes (dispositivos con anchos de hasta 600px) */
+  @media (max-width: 600px) {
+    .mario {
+      width: 100%; /* Hacer que el ancho sea del 100% para teléfonos móviles grandes */
+      margin-left: 0; /* Eliminar el margen izquierdo para teléfonos móviles grandes */
+    }
+  }
+  
+  /* Ajustes para teléfonos móviles pequeños (dispositivos con anchos de hasta 480px) */
+  @media (max-width: 480px) {
+    .mario {
+      width: 100%; /* Hacer que el ancho sea del 100% para teléfonos móviles pequeños */
+      margin-left: 0; /* Eliminar el margen izquierdo para teléfonos móviles pequeños */
+    }
+  }
+  
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .mario2 {
+    width: 100%; /* Hacer que el ancho sea del 100% para tablets */
+    margin-left: 0; /* Eliminar el margen izquierdo para tablets */
+  }
+}
+
+/* Ajustes para teléfonos móviles grandes (dispositivos con anchos de hasta 600px) */
+@media (max-width: 600px) {
+  .mario2 {
+    width: 100%; /* Hacer que el ancho sea del 100% para teléfonos móviles grandes */
+    margin-left: 0; /* Eliminar el margen izquierdo para teléfonos móviles grandes */
+  }
+}
+
+/* Ajustes para teléfonos móviles pequeños (dispositivos con anchos de hasta 480px) */
+@media (max-width: 480px) {
+  .mario2 {
+    width: 100%; /* Hacer que el ancho sea del 100% para teléfonos móviles pequeños */
+   
+  }
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .mario3 {
+    width: 100%; /* Hacer que el ancho sea del 100% para tablets */
+    margin-left: 0; /* Eliminar el margen izquierdo para tablets */
+  }
+}
+
+/* Ajustes para teléfonos móviles grandes (dispositivos con anchos de hasta 600px) */
+@media (max-width: 600px) {
+  .mario3 {
+    width: 100%; /* Hacer que el ancho sea del 100% para teléfonos móviles grandes */
+    margin-left: 0; /* Eliminar el margen izquierdo para teléfonos móviles grandes */
+  }
+}
+
+/* Ajustes para teléfonos móviles pequeños (dispositivos con anchos de hasta 480px) */
+@media (max-width: 480px) {
+  .mario3 {
+    width: 100%; /* Hacer que el ancho sea del 100% para teléfonos móviles pequeños */
+    margin-left: 0; /* Eliminar el margen izquierdo para teléfonos móviles pequeños */
+  }
+}

@@ -8,6 +8,11 @@ import Blog from "../components/Blog.jsx";
 import ContactForm from "../components/ContactForm.jsx";
 export const Home = () => {
 	const [componenteActivo, setComponenteActivo] = useState(null);
+
+    const handleVolver = () => {
+        setComponenteActivo(null); // Cierra cualquier componente abierto
+    };
+
 	return (
 
 
@@ -49,15 +54,19 @@ export const Home = () => {
 					Inteligencia Artificial (IA) a diferentes sectores para optimizar los procesos y generar valor.</p>
 
 				<div className="titulo3">
-					<iframe className="triangulo" width="560" height="315" src="https://www.youtube.com/embed/-cr9DzMvInM?si=u3BMVvxtm3hEBsW8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+					<iframe className="triangulo" width="560" height="350" src="https://www.youtube.com/embed/-cr9DzMvInM?si=u3BMVvxtm3hEBsW8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
 					<p className="titulo4">Nuestro <strong>objetivo</strong>  es desarrollar sistemas que generen <strong>riqueza</strong> para toda la
 						sociedad, a través de la <strong>tecnología</strong>.<br></br>
-						SABEMOS que <strong>el futuro se construye cada día</strong>, y esa es la ilusión que ilumina
-						nuestro trabajo.<br></br>
-						CREEMOS en la <strong>honestidad</strong> , el <strong>trabajo</strong> , el <strong>esfuerzo</strong> , la <strong>constancia</strong> , y el
-						<strong> compromiso</strong> , como pilares de nuestra empresa.<br></br>
-						QUEREMOS formar parte del desarrollo de las personas, las instituciones y la
-						sociedad, contribuyendo a <strong>crear un mundo cada vez más sostenible</strong> .</p>
+						<ul className="alex">
+							<li className="alex-tipo" >SABEMOS...<br></br> SABEMOS que <strong>el futuro se construye cada día</strong>, y esa es la ilusión que ilumina
+						nuestro trabajo.</li>
+						<li className="alex-tipo">CREEMOS...<br></br> CREEMOS en la <strong>honestidad</strong> , el <strong>trabajo</strong> , el <strong>esfuerzo</strong> , la <strong>constancia</strong> , y el
+						<strong> compromiso</strong> , como pilares de nuestra empresa.</li>
+						<li className="alex-tipo">	QUEREMOS...<br></br> QUEREMOS formar parte del desarrollo de las personas, las instituciones y la
+						sociedad, contribuyendo a <strong>crear un mundo cada vez más sostenible</strong> .</li>
+						</ul>
+						
+						</p>
 
 				</div>
 			</div>
@@ -101,6 +110,9 @@ export const Home = () => {
 						{componenteActivo === "BrainInfoComponent" && <BrainInfoComponent />}
 						{componenteActivo === "HomeCard2" && <HomeCard2 />}
 					</div>
+					{componenteActivo && (
+                <button className="buttonVolver" onClick={handleVolver}>Volver</button>
+          				  )}
 					<div className="parte4" id="destino5">
 						<img className="equuipo23" src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1704649490/B%C3%81SICO_ISOTIPO-VECTORIZADO_phclc2.png" alt="¿Qué es criptosasun?" />
 						<p className="titulo1">El equipo</p>
@@ -141,7 +153,7 @@ export const Home = () => {
 					<div className="textoequipo">
 						<p>Nuestro equipo de expertos está listo para llevar tus ideas a la realidad. No importa el
 							tamaño o la complejidad de tu proyecto, nos comprometemos a proporcionar soluciones
-							de alta calidad que cumplen con tus objetivos y superan tus expectativas.¡Ponte en contacto con nosotros hoy para comenzar!
+							de alta calidad que cumplen con tus objetivos y superan tus expectativas.<br></br>¡Ponte en contacto con nosotros hoy para comenzar!
 
 						</p>
 					</div>

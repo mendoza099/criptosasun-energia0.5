@@ -1,5 +1,5 @@
 .colocacion-trabajadores {
-    padding-left: 6cm;
+    padding-left: 5cm;
     display: grid;
     grid-template-columns: repeat(
       5,
@@ -125,8 +125,72 @@
   .text1 {
     padding-top: 3%;
     font-family: "Poppins", sans-serif;
+    color: #000000;
+    margin-left: 3%;
+    margin-bottom: -2px;
+    font-weight:600 ;
+  }
+  .text07{
+    padding-top: 3%;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    margin-left: -5%;
+    margin-bottom: -2px;
+    font-weight:600 ;
+
+  }
+  .text08{
+    padding-top: 3%;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    margin-left: 6%;
+    margin-bottom: -2px;
+    font-weight:600 ;
+  }
+  .text011{
+    padding-top: 3%;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    margin-left: 11.5%;
+    margin-bottom: -2px;
+    font-weight:600 ;
+  }
+  .text99{
+    padding-top: 3%;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    margin-left: 8%;
+    margin-bottom: -2px;
+    font-weight:600 ;
+  }
+  .text34{
+    font-family: "Poppins", sans-serif;
     color: #4c4e52;
-    margin-left: 4%;
+  }
+  .text65{
+    font-family: "Poppins", sans-serif;
+    color: #4c4e52;
+    margin-left: 12.5%;
+  }
+  .text66{
+    font-family: "Poppins", sans-serif;
+    color: #4c4e52;
+    margin-left: 18%;
+  }
+  .text39{
+    font-family: "Poppins", sans-serif;
+    color: #4c4e52;
+    margin-left:27%;
+  }
+  .text15{
+    font-family: "Poppins", sans-serif;
+    color: #4c4e52;
+    margin-left:11%;
+  }
+  .text004{
+    font-family: "Poppins", sans-serif;
+    color: #4c4e52;
+    margin-left:18%;
   }
   @media (max-width: 1024px) {
     .colocacion-trabajadores {
@@ -175,15 +239,17 @@
       padding-left: 1cm; /* El menor padding */
       grid-template-columns: 1fr; /* 1 columna */
       grid-template-areas:
-        "trabajador1"
-        "trabajador2"
-        "trabajador3"
-        /* ...continuar para todos los trabajadores... */
-        "trabajador13";
+      "trabajador1 trabajador2"
+      "trabajador3 trabajador4"
+      "trabajador5 trabajador6"
+      "trabajador7 trabajador8"
+      "trabajador9 trabajador10"
+      "trabajador11 trabajador12"
+      "trabajador13 .";
     }
   }
-  @media
-(max-width: 1024px) {
+ 
+  @media(max-width: 1024px) {
 .trabajador1 {
 width: 180px;
 height: 180px;
@@ -210,9 +276,13 @@ margin-left: 50%;
   /* Para teléfonos móviles pequeños (menos de 480px) */
   @media (max-width: 480px) {
   .trabajador1 {
-  width: 120px;
-  height: 120px;
-  margin-left: 20%;
+    width: 120px; /* Ancho ajustado para teléfonos móviles pequeños */
+      height: 120px; /* Altura ajustada para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+      margin-left: 10%;
+      padding-top: 1%; /* Espaciado superior ajustado para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+      font-size: 11px;
   }
   }
 
@@ -247,9 +317,13 @@ margin-left: 50%;
   /* Para teléfonos móviles pequeños (menos de 480px) */
   @media (max-width: 480px) {
   .trabajador2 {
-  width: 120px;
-  height: 120px;
-  margin-left: 20%;
+    width: 120px; /* Ancho ajustado para teléfonos móviles pequeños */
+      height: 120px; /* Altura ajustada para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+      margin-left: 10%;
+      padding-top: 1%; /* Espaciado superior ajustado para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+      font-size: 11px;
   }
   }
 
@@ -284,9 +358,13 @@ margin-left: 50%;
   /* Para teléfonos móviles pequeños (menos de 480px) */
   @media (max-width: 480px) {
   .trabajador3 {
-  width: 120px;
-  height: 120px;
-  margin-left: 20%;
+    width: 120px; /* Ancho ajustado para teléfonos móviles pequeños */
+    height: 120px; /* Altura ajustada para teléfonos móviles pequeños */
+    /* Las demás propiedades se mantienen */
+    margin-left: 10%;
+    padding-top: 1%; /* Espaciado superior ajustado para teléfonos móviles pequeños */
+    /* Las demás propiedades se mantienen */
+    font-size: 11px;
   }
   }
   /* Para monitores y laptops (1024px a 768px) */
@@ -308,16 +386,24 @@ margin-left: 50%;
 /* Para teléfonos móviles grandes (600px a 480px) */
 @media (max-width: 600px) {
   .trabajador4 {
-    width: 140px;
-    height: 140px;
+    width: 120px; /* Ancho ajustado para teléfonos móviles pequeños */
+    height: 120px; /* Altura ajustada para teléfonos móviles pequeños */
+    /* Las demás propiedades se mantienen */
+    margin-left: 10%;
+    padding-top: 1%; /* Espaciado superior ajustado para teléfonos móviles pequeños */
+    /* Las demás propiedades se mantienen */
+    font-size: 11px;
+
   }
 }
 
 /* Para teléfonos móviles pequeños (menos de 480px) */
 @media (max-width: 480px) {
   .trabajador4 {
-    width: 120px;
-    height: 120px;
+    width: 120px; /* Ancho ajustado para teléfonos móviles pequeños */
+      height: 120px; /* Altura ajustada para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+      margin-left: 10%;
   }
 }
 
@@ -345,14 +431,20 @@ margin-left: 50%;
   .trabajador5 {
     width: 140px;
     height: 140px;
+    margin-left: 30%;
   }
 }
 
 /* Para teléfonos móviles pequeños (menos de 480px) */
 @media (max-width: 480px) {
   .trabajador5 {
-    width: 120px;
-    height: 120px;
+    width: 120px; /* Ancho ajustado para teléfonos móviles pequeños */
+    height: 120px; /* Altura ajustada para teléfonos móviles pequeños */
+    /* Las demás propiedades se mantienen */
+    margin-left: 10%;
+    padding-top: 1%; /* Espaciado superior ajustado para teléfonos móviles pequeños */
+    /* Las demás propiedades se mantienen */
+    font-size: 11px;
   }
 }
 
@@ -379,14 +471,20 @@ margin-left: 50%;
   .trabajador6 {
     width: 140px;
     height: 140px;
+    margin-left: 30%;
   }
 }
 
 /* Para teléfonos móviles pequeños (menos de 480px) */
 @media (max-width: 480px) {
   .trabajador6 {
-    width: 120px;
-    height: 120px;
+    width: 120px; /* Ancho ajustado para teléfonos móviles pequeños */
+    height: 120px; /* Altura ajustada para teléfonos móviles pequeños */
+    /* Las demás propiedades se mantienen */
+    margin-left: 10%;
+    padding-top: 1%; /* Espaciado superior ajustado para teléfonos móviles pequeños */
+    /* Las demás propiedades se mantienen */
+    font-size: 11px;
   }
 }
 
@@ -415,14 +513,20 @@ margin-left: 50%;
   .trabajador7 {
     width: 140px;
     height: 140px;
+    margin-left: 30%;
   }
 }
 
 /* Para teléfonos móviles pequeños (menos de 480px) */
 @media (max-width: 480px) {
   .trabajador7 {
-    width: 120px;
-    height: 120px;
+    width: 120px; /* Ancho ajustado para teléfonos móviles pequeños */
+      height: 120px; /* Altura ajustada para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+      margin-left: 10%;
+      padding-top: 1%; /* Espaciado superior ajustado para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+      font-size: 11px;
   }
 }
 
@@ -451,14 +555,20 @@ margin-left: 50%;
   .trabajador8 {
     width: 140px;
     height: 140px;
+    margin-left: 30%;
   }
 }
 
 /* Para teléfonos móviles pequeños (menos de 480px) */
 @media (max-width: 480px) {
   .trabajador8 {
-    width: 120px;
-    height: 120px;
+    width: 120px; /* Ancho ajustado para teléfonos móviles pequeños */
+      height: 120px; /* Altura ajustada para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+      margin-left: 10%;
+      padding-top: 1%; /* Espaciado superior ajustado para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+      font-size: 11px;
   }
 }
 
@@ -487,14 +597,20 @@ margin-left: 50%;
   .trabajador9 {
     width: 140px;
     height: 140px;
+    margin-left: 30%;
   }
 }
 
 /* Para teléfonos móviles pequeños (menos de 480px) */
 @media (max-width: 480px) {
   .trabajador9 {
-    width: 120px;
-    height: 120px;
+    width: 120px; /* Ancho ajustado para teléfonos móviles pequeños */
+      height: 120px; /* Altura ajustada para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+      margin-left: 10%;
+      padding-top: 1%; /* Espaciado superior ajustado para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+      font-size: 11px;
   }
 }
 
@@ -525,14 +641,103 @@ margin-left: 50%;
   .trabajador10 {
     width: 140px;
     height: 140px;
+    margin-left: 30%;
   }
 }
 
 /* Para teléfonos móviles pequeños (menos de 480px) */
 @media (max-width: 480px) {
   .trabajador10 {
-    width: 120px;
-    height: 120px;
+    width: 120px; /* Ancho ajustado para teléfonos móviles pequeños */
+      height: 120px; /* Altura ajustada para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+      margin-left: 10%;
+      padding-top: 1%; /* Espaciado superior ajustado para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+      font-size: 11px;
+  }
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+  .trabajador11 {
+      width: 180px; /* Ancho ajustado para tabletas */
+      height: 180px; /* Altura ajustada para tabletas */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para tabletas más pequeñas (768px a 600px) */
+@media (max-width: 768px) {
+  .trabajador11 {
+      width: 160px; /* Ancho ajustado para tabletas más pequeñas */
+      height: 160px; /* Altura ajustada para tabletas más pequeñas */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .trabajador11 {
+      width: 140px; /* Ancho ajustado para teléfonos móviles grandes */
+      height: 140px; /* Altura ajustada para teléfonos móviles grandes */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .trabajador11 {
+    width: 120px; /* Ancho ajustado para teléfonos móviles pequeños */
+      height: 120px; /* Altura ajustada para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+      margin-left: 10%;
+      padding-top: 1%; /* Espaciado superior ajustado para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+      font-size: 11px;
+  }
+}
+
+
+
+/* Para monitores y laptops (1024px a 768px) */
+@media (max-width: 1024px) {
+  .trabajador12 {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+/* Para tabletas (768px a 600px) */
+@media (max-width: 768px) {
+  .trabajador12 {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .trabajador12 {
+    width: 140px;
+    height: 140px;
+    margin-left: 30%;
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .trabajador12 {
+    width: 120px; /* Ancho ajustado para teléfonos móviles pequeños */
+    height: 120px; /* Altura ajustada para teléfonos móviles pequeños */
+    /* Las demás propiedades se mantienen */
+    margin-left: 10%;
+    padding-top: 1%; /* Espaciado superior ajustado para teléfonos móviles pequeños */
+    /* Las demás propiedades se mantienen */
+    font-size: 11px;
   }
 }
 
@@ -542,7 +747,7 @@ margin-left: 50%;
 
 /* Para monitores y laptops (1024px a 768px) */
 @media (max-width: 1024px) {
-  .trabajado11 {
+  .trabajador13 {
     width: 180px;
     height: 180px;
   }
@@ -550,7 +755,7 @@ margin-left: 50%;
 
 /* Para tabletas (768px a 600px) */
 @media (max-width: 768px) {
-  .trabajado11 {
+  .trabajador13 {
     width: 160px;
     height: 160px;
   }
@@ -558,87 +763,421 @@ margin-left: 50%;
 
 /* Para teléfonos móviles grandes (600px a 480px) */
 @media (max-width: 600px) {
-  .trabajado11 {
+  .trabajador13 {
     width: 140px;
-    height: 140px;
+  height: 140px;
+  margin-left: 30%;
   }
 }
 
 /* Para teléfonos móviles pequeños (menos de 480px) */
 @media (max-width: 480px) {
-  .trabajado11 {
-    width: 120px;
-    height: 120px;
+  .trabajador13 {
+    width: 120px; /* Ancho ajustado para teléfonos móviles pequeños */
+      height: 120px; /* Altura ajustada para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+      margin-left: 10%;
+      padding-top: 1%; /* Espaciado superior ajustado para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+      font-size: 11px;
   }
 }
-
-
-
-
-/* Para monitores y laptops (1024px a 768px) */
+/* Para tabletas (1024px a 768px) */
 @media (max-width: 1024px) {
-  .trabajador12 {
-    width: 180px;
-    height: 180px;
-  }
+    .perdro1 {
+        width: 100%; /* Ancho ajustado para tabletas */
+        border-radius: 300%; /* Radio de borde ajustado para tabletas */
+    }
 }
 
-/* Para tabletas (768px a 600px) */
+/* Para tabletas más pequeñas (768px a 600px) */
 @media (max-width: 768px) {
-  .trabajador12 {
-    width: 160px;
-    height: 160px;
-  }
+    .perdro1 {
+        width: 100%; /* Ancho ajustado para tabletas más pequeñas */
+        border-radius: 250%; /* Radio de borde ajustado para tabletas más pequeñas */
+    }
 }
 
 /* Para teléfonos móviles grandes (600px a 480px) */
 @media (max-width: 600px) {
-  .trabajador12 {
-    width: 140px;
-    height: 140px;
-  }
+    .perdro1 {
+        width: 80%; /* Ancho ajustado para teléfonos móviles grandes */
+        border-radius: 200%; /* Radio de borde ajustado para teléfonos móviles grandes */
+    }
 }
 
 /* Para teléfonos móviles pequeños (menos de 480px) */
 @media (max-width: 480px) {
-  .trabajador12 {
-    width: 120px;
-    height: 120px;
-  }
+    .perdro1 {
+        width: 60%; /* Ancho ajustado para teléfonos móviles pequeños */
+        border-radius: 150%; /* Radio de borde ajustado para teléfonos móviles pequeños */
+    }
 }
-
-
-
-
-
-/* Para monitores y laptops (1024px a 768px) */
+/* Para tabletas (1024px a 768px) */
 @media (max-width: 1024px) {
-  .trabajador13 {
-    width: 180px;
-    height: 180px;
+  .text1 {
+      padding-top: 2.5%; /* Espaciado superior ajustado para tabletas */
+      margin-left: 2.5%; /* Margen izquierdo ajustado para tabletas */
+      /* Las demás propiedades se mantienen */
   }
 }
 
-/* Para tabletas (768px a 600px) */
+/* Para tabletas más pequeñas (768px a 600px) */
 @media (max-width: 768px) {
-  .trabajador13 {
-    width: 160px;
-    height: 160px;
+  .text1 {
+      padding-top: 2%; /* Espaciado superior ajustado para tabletas más pequeñas */
+      margin-left: 2%; /* Margen izquierdo ajustado para tabletas más pequeñas */
+      /* Las demás propiedades se mantienen */
   }
 }
 
 /* Para teléfonos móviles grandes (600px a 480px) */
 @media (max-width: 600px) {
-  .trabajador13 {
-    width: 140px;
-    height: 140px;
+  .text1 {
+      padding-top: 1.5%; /* Espaciado superior ajustado para teléfonos móviles grandes */
+      margin-left: 1.5%; /* Margen izquierdo ajustado para teléfonos móviles grandes */
+      /* Las demás propiedades se mantienen */
   }
 }
 
 /* Para teléfonos móviles pequeños (menos de 480px) */
 @media (max-width: 480px) {
-  .trabajador13 {
-    width: 120px;
-    height: 120px;
+  .text1 {
+      padding-top: 1%; /* Espaciado superior ajustado para teléfonos móviles pequeños */
+      margin-left: 1%; /* Margen izquierdo ajustado para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+  }
+}
+/* Para tabletas (1024px a 768px) */
+@media (max-width: 1024px) {
+  .text07 {
+      padding-top: 2.5%; /* Espaciado superior ajustado para tabletas */
+      margin-left: -4%; /* Margen izquierdo ajustado para tabletas */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para tabletas más pequeñas (768px a 600px) */
+@media (max-width: 768px) {
+  .text07 {
+      padding-top: 2%; /* Espaciado superior ajustado para tabletas más pequeñas */
+      margin-left: -3%; /* Margen izquierdo ajustado para tabletas más pequeñas */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .text07 {
+      padding-top: 1.5%; /* Espaciado superior ajustado para teléfonos móviles grandes */
+      margin-left: -2%; /* Margen izquierdo ajustado para teléfonos móviles grandes */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .text07 {
+      padding-top: 1%; /* Espaciado superior ajustado para teléfonos móviles pequeños */
+      margin-left: -14%; /* Margen izquierdo ajustado para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+      font-size: 11px;
+  }
+}
+/* Para tabletas (1024px a 768px) */
+@media (max-width: 1024px) {
+  .text08 {
+      padding-top: 2.5%; /* Espaciado superior ajustado para tabletas */
+      margin-left: 5%; /* Margen izquierdo ajustado para tabletas */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para tabletas más pequeñas (768px a 600px) */
+@media (max-width: 768px) {
+  .text08 {
+      padding-top: 2%; /* Espaciado superior ajustado para tabletas más pequeñas */
+      margin-left: 4%; /* Margen izquierdo ajustado para tabletas más pequeñas */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .text08 {
+      padding-top: 1.5%; /* Espaciado superior ajustado para teléfonos móviles grandes */
+      margin-left: 3%; /* Margen izquierdo ajustado para teléfonos móviles grandes */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .text08 {
+      padding-top: 1%; /* Espaciado superior ajustado para teléfonos móviles pequeños */
+      margin-left: 2%; /* Margen izquierdo ajustado para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+  }
+}
+/* Para tabletas (1024px a 768px) */
+@media (max-width: 1024px) {
+  .text011 {
+      padding-top: 2.5%; /* Espaciado superior ajustado para tabletas */
+      margin-left: 10%; /* Margen izquierdo ajustado para tabletas */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para tabletas más pequeñas (768px a 600px) */
+@media (max-width: 768px) {
+  .text011 {
+      padding-top: 2%; /* Espaciado superior ajustado para tabletas más pequeñas */
+      margin-left: 8.5%; /* Margen izquierdo ajustado para tabletas más pequeñas */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .text011 {
+      padding-top: 1.5%; /* Espaciado superior ajustado para teléfonos móviles grandes */
+      margin-left: 7%; /* Margen izquierdo ajustado para teléfonos móviles grandes */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .text011 {
+      padding-top: 1%; /* Espaciado superior ajustado para teléfonos móviles pequeños */
+      margin-left: 5.5%; /* Margen izquierdo ajustado para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+  }
+}
+@media (max-width: 1024px) {
+  .text99 {
+      padding-top: 2.5%; /* Espaciado superior ajustado para tabletas */
+      margin-left: 7%; /* Margen izquierdo ajustado para tabletas */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para tabletas más pequeñas (768px a 600px) */
+@media (max-width: 768px) {
+  .text99 {
+      padding-top: 2%; /* Espaciado superior ajustado para tabletas más pequeñas */
+      margin-left: 6%; /* Margen izquierdo ajustado para tabletas más pequeñas */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .text99 {
+      padding-top: 1.5%; /* Espaciado superior ajustado para teléfonos móviles grandes */
+      margin-left: 5%; /* Margen izquierdo ajustado para teléfonos móviles grandes */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .text99 {
+      padding-top: 1%; /* Espaciado superior ajustado para teléfonos móviles pequeños */
+      margin-left: 4%; /* Margen izquierdo ajustado para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+  }
+}
+/* Para tabletas (1024px a 768px) */
+@media (max-width: 1024px) {
+  .text65 {
+      margin-left: 11%; /* Margen izquierdo ajustado para tabletas */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para tabletas más pequeñas (768px a 600px) */
+@media (max-width: 768px) {
+  .text65 {
+      margin-left: 9.5%; /* Margen izquierdo ajustado para tabletas más pequeñas */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .text65 {
+      margin-left: 8%; /* Margen izquierdo ajustado para teléfonos móviles grandes */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .text65 {
+      margin-left: 6.5%; /* Margen izquierdo ajustado para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+  }
+}
+@media (max-width: 1024px) {
+  .text66 {
+      margin-left: 16%; /* Margen izquierdo ajustado para tabletas */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para tabletas más pequeñas (768px a 600px) */
+@media (max-width: 768px) {
+  .text66 {
+      margin-left: 14%; /* Margen izquierdo ajustado para tabletas más pequeñas */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .text66 {
+      margin-left: 12%; /* Margen izquierdo ajustado para teléfonos móviles grandes */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .text66 {
+      margin-left: 10%; /* Margen izquierdo ajustado para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+  }
+}
+/* Para tabletas (1024px a 768px) */
+@media (max-width: 1024px) {
+  .text39 {
+      margin-left: 25%; /* Margen izquierdo ajustado para tabletas */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para tabletas más pequeñas (768px a 600px) */
+@media (max-width: 768px) {
+  .text39 {
+      margin-left: 23%; /* Margen izquierdo ajustado para tabletas más pequeñas */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .text39 {
+      margin-left: 21%; /* Margen izquierdo ajustado para teléfonos móviles grandes */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .text39 {
+      margin-left: 19%; /* Margen izquierdo ajustado para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+  }
+}
+/* Para tabletas (1024px a 768px) */
+@media (max-width: 1024px) {
+  .text15 {
+      margin-left: 10%; /* Margen izquierdo ajustado para tabletas */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para tabletas más pequeñas (768px a 600px) */
+@media (max-width: 768px) {
+  .text15 {
+      margin-left: 9%; /* Margen izquierdo ajustado para tabletas más pequeñas */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .text15 {
+      margin-left: 8%; /* Margen izquierdo ajustado para teléfonos móviles grandes */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .text15 {
+      margin-left: 7%; /* Margen izquierdo ajustado para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+  }
+}
+/* Para tabletas (1024px a 768px) */
+@media (max-width: 1024px) {
+  .text004 {
+      margin-left: 16%; /* Margen izquierdo ajustado para tabletas */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para tabletas más pequeñas (768px a 600px) */
+@media (max-width: 768px) {
+  .text004 {
+      margin-left: 14%; /* Margen izquierdo ajustado para tabletas más pequeñas */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .text004 {
+      margin-left: 12%; /* Margen izquierdo ajustado para teléfonos móviles grandes */
+      /* Las demás propiedades se mantienen */
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .text004 {
+      margin-left: 10%; /* Margen izquierdo ajustado para teléfonos móviles pequeños */
+      /* Las demás propiedades se mantienen */
+  }
+}
+/* Para tabletas (1024px a 768px) */
+@media (max-width: 1024px) {
+  .manolo1 {
+      bottom: 50px; /* Ajuste de posición para tabletas */
+      right: 50px; /* Ajuste de posición para tabletas */
+      width: 35px; /* Ajuste de tamaño para tabletas */
+      /* La altura se mantiene en 'auto' para mantener la relación de aspecto */
+  }
+}
+
+/* Para tabletas más pequeñas (768px a 600px) */
+@media (max-width: 768px) {
+  .manolo1 {
+      bottom: 40px; /* Ajuste de posición para tabletas más pequeñas */
+      right: 40px; /* Ajuste de posición para tabletas más pequeñas */
+      width: 30px; /* Ajuste de tamaño para tabletas más pequeñas */
+      /* La altura se mantiene en 'auto' */
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .manolo1 {
+      bottom: 30px; /* Ajuste de posición para teléfonos móviles grandes */
+      right: 30px; /* Ajuste de posición para teléfonos móviles grandes */
+      width: 25px; /* Ajuste de tamaño para teléfonos móviles grandes */
+      /* La altura se mantiene en 'auto' */
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .manolo1 {
+      bottom: 50px; /* Ajuste de posición para teléfonos móviles pequeños */
+      right: 50px; /* Ajuste de posición para teléfonos móviles pequeños */
+      width: 20px; /* Ajuste de tamaño para teléfonos móviles pequeños */
+      /* La altura se mantiene en 'auto' */
   }
 }

@@ -17,7 +17,7 @@
     align-items: center; /* Centra los elementos horizontalmente */
     text-align: center;
     font-family: "Poppins", sans-serif;
-    font-size: 23px;
+    font-size: 17px;
     color: white;
     width: 20%;
   }
@@ -29,4 +29,218 @@
     font-size: 17px;
     color: white;
   }
+  .final45{
+    width: 100px;
+    height: 100px;
+  }
+  .final455{
+    width: 200px;
+    height: 50px;
+  }
+
+  .teriminar{
+    font-weight: bold;
+    font-size: 16px;
+  }
+  @media (max-width: 768px) {
+    .final {
+      padding: 2% 0; /* Aumenta un poco el padding vertical para más espacio */
+      /* Ajusta cualquier otro estilo que sea necesario para tabletas aquí */
+    }
+  }
   
+  /* Para pantallas pequeñas como teléfonos móviles */
+  @media (max-width: 480px) {
+    .final {
+      padding: 3% 0; /* Aumenta más el padding vertical para más espacio */
+      flex-direction: column; /* Esto es útil si tienes varios elementos dentro de .final que deberían apilarse en dispositivos móviles */
+      /* Ajusta cualquier otro estilo que sea necesario para teléfonos móviles aquí */
+    }
+  }
+  
+/* Ajustes para tablets */
+@media (max-width: 1024px) {
+  .imagen11 {
+      height: 70px; /* Altura ajustada para tabletas */
+      margin-right: 12%; /* Margen derecho ajustado */
+      margin-left: 5%; /* Margen izquierdo ajustado */
+      margin-top: 3.5%; /* Margen superior ajustado */
+  }
+}
+
+/* Para tabletas más pequeñas (768px a 600px) */
+@media (max-width: 768px) {
+  .imagen11 {
+      height: 60px; /* Altura ajustada para tabletas más pequeñas */
+      margin-right: 10%; /* Margen derecho ajustado */
+      margin-left: 4%; /* Margen izquierdo ajustado */
+      margin-top: 3%; /* Margen superior ajustado */
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .imagen11 {
+      height: 50px; /* Altura ajustada para teléfonos móviles grandes */
+      margin-right: 8%; /* Margen derecho ajustado */
+      margin-left: 3%; /* Margen izquierdo ajustado */
+      margin-top: 2.5%; /* Margen superior ajustado */
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .imagen11 {
+      
+      width: 200px;
+      margin-right: 6%; /* Margen derecho ajustado */
+      margin-left: 2%; /* Margen izquierdo ajustado */
+      margin-top: 2%; /* Margen superior ajustado */
+  }
+}
+
+/* Ajustes para tablets */
+@media (max-width: 768px) {
+  .texto43 {
+    font-size: 15px; /* Reduce el tamaño de la fuente para tabletas */
+    width: 40%; /* Aumenta el ancho para tabletas */
+  }
+}
+
+/* Ajustes para teléfonos móviles grandes */
+@media (max-width: 600px) {
+  .texto43 {
+    font-size: 13px; /* Reduce aún más el tamaño de la fuente para teléfonos grandes */
+    width: 60%; /* Aumenta el ancho para teléfonos grandes */
+  }
+}
+
+/* Ajustes para teléfonos móviles pequeños */
+@media (max-width: 480px) {
+  .texto43 {
+    font-size: 12px; /* Reduce aún más el tamaño de la fuente para teléfonos pequeños */
+    width: 80%; /* Aumenta el ancho para teléfonos pequeños */
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Ajustes para tablets */
+@media (max-width: 768px) {
+  .simbolo {
+    margin-left: 10%; /* Margen reducido para pantallas medianas */
+  }
+}
+
+/* Ajustes para teléfonos móviles grandes */
+@media (max-width: 600px) {
+  .simbolo {
+    margin-left: 5%; /* Margen más pequeño para pantallas pequeñas */
+  }
+}
+
+/* Ajustes para teléfonos móviles pequeños */
+@media (max-width: 480px) {
+  .simbolo {
+    margin-left: 2%; /* Margen mínimo para teléfonos muy pequeños */
+  }
+}
+
+/* Ajustes para tablets */
+@media (max-width: 768px) {
+  .texto44 {
+    font-size: 15px; /* Reduce el tamaño de la fuente para tabletas */
+  }
+}
+
+/* Ajustes para teléfonos móviles grandes */
+@media (max-width: 600px) {
+  .texto44 {
+    font-size: 13px; /* Reduce aún más el tamaño de la fuente para teléfonos grandes */
+  }
+}
+
+/* Ajustes para teléfonos móviles pequeños */
+@media (max-width: 480px) {
+  .texto44 {
+    font-size: 12px; /* Reduce aún más el tamaño de la fuente para teléfonos pequeños */
+  }
+}
+@media (max-width: 1024px) {
+  .final45 {
+      width: 90px; /* Ancho ajustado para tabletas */
+      height: 90px; /* Altura ajustada */
+  }
+  .final455 {
+      width: 180px; /* Ancho ajustado */
+      height: 45px; /* Altura ajustada */
+  }
+}
+
+/* Para tabletas más pequeñas (768px a 600px) */
+@media (max-width: 768px) {
+  .final45 {
+      width: 80px; /* Ancho ajustado para tabletas más pequeñas */
+      height: 80px; /* Altura ajustada */
+  }
+  .final455 {
+      width: 160px; /* Ancho ajustado */
+      height: 40px; /* Altura ajustada */
+  }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+  .final45 {
+      width: 70px; /* Ancho ajustado para teléfonos móviles grandes */
+      height: 70px; /* Altura ajustada */
+  }
+  .final455 {
+      width: 140px; /* Ancho ajustado */
+      height: 35px; /* Altura ajustada */
+  }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .final45 {
+      width: 30px; /* Ancho ajustado para teléfonos móviles pequeños */
+      height: 30px; /* Altura ajustada */
+  }
+  .final455 {
+      width: 80px; /* Ancho ajustado */
+      height: 30px; /* Altura ajustada */
+  }
+}
+@media (max-width: 1024px) {
+    .teriminar {
+        font-size: 15px; /* Tamaño de la fuente ajustado para tabletas */
+    }
+}
+
+/* Para tabletas más pequeñas (768px a 600px) */
+@media (max-width: 768px) {
+    .teriminar {
+        font-size: 14px; /* Tamaño de la fuente ajustado para tabletas más pequeñas */
+    }
+}
+
+/* Para teléfonos móviles grandes (600px a 480px) */
+@media (max-width: 600px) {
+    .teriminar {
+        font-size: 13px; /* Tamaño de la fuente ajustado para teléfonos móviles grandes */
+    }
+}
+
+/* Para teléfonos móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+    .teriminar {
+        font-size: 6px; /* Tamaño de la fuente ajustado para teléfonos móviles pequeños */
+    }
+}

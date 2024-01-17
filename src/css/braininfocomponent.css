@@ -112,3 +112,42 @@ li {
     padding-left: 12px; /* Ajustar para dispositivos muy pequeños */
   }
 }
+@media (max-width: 768px) {
+  #mca {
+    margin-right: 20%; /* Ajustar el margen derecho para tablets */
+  }
+}
+
+/* Ajustes para teléfonos móviles grandes (dispositivos con anchos de hasta 600px) */
+@media (max-width: 600px) {
+  #mca {
+    margin-right: 10%; /* Ajustar el margen derecho para teléfonos móviles grandes */
+  }
+}
+
+/* Ajustes para teléfonos móviles pequeños (dispositivos con anchos de hasta 480px) */
+@media (max-width: 480px) {
+  #mca {
+    margin-right: 5%; /* Ajustar el margen derecho para teléfonos móviles pequeños */
+  }
+}
+/* Ajustes para tablets (dispositivos con anchos de hasta 768px) */
+@media (max-width: 768px) {
+  #dispositivos {
+    margin-left: 40%; /* Ajustar el margen izquierdo para tablets */
+  }
+}
+
+/* Ajustes para teléfonos móviles grandes (dispositivos con anchos de hasta 600px) */
+@media (max-width: 600px) {
+  #dispositivos {
+    margin-left: 20%; /* Ajustar el margen izquierdo para teléfonos móviles grandes */
+  }
+}
+
+/* Ajustes para teléfonos móviles pequeños (dispositivos con anchos de hasta 480px) */
+@media (max-width: 480px) {
+  #dispositivos {
+    margin-left: 10%; /* Ajustar el margen izquierdo para teléfonos móviles pequeños */
+  }
+}

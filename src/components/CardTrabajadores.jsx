@@ -14,7 +14,8 @@ const CardTrabajadores = () => {
 
                     <img className='perdro1' src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1704988284/WhatsApp_Image_2023-11-29_at_11.56.15_x6oebs.jpg" alt="" />
 
-                    <p className='text1'>Fernando de la Malla</p>
+                    <p className='text07'>Fernando de la Malla</p>
+                    <p className='text66'>President</p>
 
 
                 </div>
@@ -24,7 +25,8 @@ const CardTrabajadores = () => {
                     <a href="https://www.linkedin.com/in/ignacio-ozcariz-9b014260/" target="_blank" rel="noopener noreferrer">
                         <img className='manolo1' src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1704988618/6297a2f1e01809629f113598_u1me7q.png" alt="Descripción del logo" />
                     </a>
-                    <p className='text1'>Ignacio Ozcariz</p>
+                    <p className='text08'>Ignacio Ozcariz</p>
+                    <p className='text39'>CEO</p>
 
                 </div>
                 <div className="trabajador3">
@@ -33,8 +35,9 @@ const CardTrabajadores = () => {
                     <a href="https://www.linkedin.com/in/ana-lazcano-de-rojas-phd-30220920/" target="_blank" rel="noopener noreferrer">
                         <img className='manolo1' src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1704988618/6297a2f1e01809629f113598_u1me7q.png" alt="Descripción del logo" />
                     </a>
-                    <p className='text1'>Ana Lazcano
+                    <p className='text011'>Ana Lazcano
                     </p>
+                    <p className='text39'>COO</p>
 
 
                 </div>
@@ -46,6 +49,7 @@ const CardTrabajadores = () => {
                     </a>
                     <p className='text1'>Arantxa Ozcariz
                     </p>
+                    <p className='text65'>VP Financia</p>
 
 
                 </div>
@@ -53,7 +57,8 @@ const CardTrabajadores = () => {
 
                     <img className='perdro1' src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1704987965/fb93a53c-5740-409a-a594-d10ac32429af_1_hweyds.jpg" alt="" />
 
-                    <p className='text1'>Miguel Angel Jaramillo</p>
+                    <p className='text07'>Miguel Angel Jaramillo</p>
+                    <p className='text15'>VP Engineering</p>
 
 
                 </div>
@@ -62,6 +67,7 @@ const CardTrabajadores = () => {
                     <img className='perdro1' src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1704988291/WhatsApp_Image_2023-11-29_at_13.03.05_jxn9sd.jpg" alt="" />
 
                     <p className='text1'>Fernando Zayas</p>
+                    <p className='text65'>VP Product</p>
 
 
                 </div>
@@ -69,7 +75,8 @@ const CardTrabajadores = () => {
 
                     <img className='perdro1' src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1704988286/204f1dfb-c18f-479a-b590-dbd78af6d047_flymqz.jpg" alt="" />
 
-                    <p className='text1'>Ana Muñoz</p>
+                    <p className='text011'>Ana Muñoz</p>
+                    <p className='text004'>VP Legal</p>
 
 
                 </div>
@@ -79,7 +86,8 @@ const CardTrabajadores = () => {
                     <a href="https://www.linkedin.com/in/jonas-girod-20910113/" target="_blank" rel="noopener noreferrer">
                         <img className='manolo1' src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1704988618/6297a2f1e01809629f113598_u1me7q.png" alt="Descripción del logo" />
                     </a>
-                    <p className='text1'>Jonas Girod</p>
+                    <p className='text011'>Jonas Girod</p>
+                    <p className='text15'>VP Marketing</p>
 
 
                 </div>
@@ -91,6 +99,7 @@ const CardTrabajadores = () => {
                     </a>
                     <p className='text1'>Alfredo Talavera
                     </p>
+                    <p className='text34'>Systems Analyst</p>
 
 
                 </div>
@@ -100,8 +109,10 @@ const CardTrabajadores = () => {
                     <a href="https://www.linkedin.com/in/luis-%C3%A1ngel-carretero-d%C3%ADaz-959009176/" target="_blank" rel="noopener noreferrer">
                         <img className='manolo1' src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1704988618/6297a2f1e01809629f113598_u1me7q.png" alt="Descripción del logo" />
                     </a>
-                    <p className='text1'>Luis Carretero
+                    <p className='text99'>Luis Carretero
                     </p>
+                    <p className='text34'>Systems Engineer</p>
+
 
 
                 </div>
@@ -113,6 +124,7 @@ const CardTrabajadores = () => {
                     </a>
                     <p className='text1'>Marcos Garrido
                     </p>
+                    <p className='text34'>Systems Engineer</p>
 
 
                 </div>
@@ -123,6 +135,7 @@ const CardTrabajadores = () => {
                         <img className='manolo1' src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1704988618/6297a2f1e01809629f113598_u1me7q.png" alt="Descripción del logo" />
                     </a>
                     <p className='text1'>Sergio Mendoza</p>
+                    <p className='text34'>Content Developer</p>
 
                 </div>
                 <div className="trabajador13">
@@ -132,6 +145,7 @@ const CardTrabajadores = () => {
                         <img className='manolo1' src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1704988618/6297a2f1e01809629f113598_u1me7q.png" alt="Descripción del logo" />
                     </a>
                     <p className='text1'>Miguel Carmona</p>
+                    <p className='text34'>Systems Engineer</p>
 
                 </div>
 

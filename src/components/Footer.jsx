@@ -24,7 +24,7 @@ export const Footer = () => (
 
 		>
 			<div>
-				<img style={{ width: "100px", height: "100px" }}
+				<img className="final45" 
 					alt="Sello PYME INNOVADORA 21/11/2026"
 					src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1704992199/sello_1_sm2aky.jpg"
 				/>
@@ -37,7 +37,7 @@ export const Footer = () => (
 					marginBottom: '10px'
 				}}
 			>
-				<div style={{ fontWeight: 'bold', fontSize: '16px' }}>
+				<div className="teriminar" >
 					PYME INNOVADORA
 				</div>
 				<div style={{ fontSize: '10px' }}>
@@ -46,7 +46,8 @@ export const Footer = () => (
 			</div>
 			<div>
 				<img
-					style={{ width: "200px", height: "50px" }}
+				 className="final455"
+					
 					alt="escudo de MEIC 21/11/2026"
 					src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1704992417/escudo_1_ez7mxm.jpg"
 				/>
