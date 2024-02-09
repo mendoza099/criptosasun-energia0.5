@@ -58,7 +58,7 @@ const CardTrabajadores = () => {
                     <img className='perdro1' src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1704987965/fb93a53c-5740-409a-a594-d10ac32429af_1_hweyds.jpg" alt="" />
 
                     <p className='text07'>Miguel Angel Jaramillo</p>
-                    <p className='text15'>VP Engineering</p>
+                    <p className='text15'>Ext. coll. Engineer</p>
 
 
                 </div>
@@ -76,7 +76,7 @@ const CardTrabajadores = () => {
                     <img className='perdro1' src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1704988286/204f1dfb-c18f-479a-b590-dbd78af6d047_flymqz.jpg" alt="" />
 
                     <p className='text011'>Ana Muñoz</p>
-                    <p className='text004'>VP Legal</p>
+                    <p className='text004'>Ext. coll. Legal</p>
 
 
                 </div>
@@ -87,7 +87,7 @@ const CardTrabajadores = () => {
                         <img className='manolo1' src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1704988618/6297a2f1e01809629f113598_u1me7q.png" alt="Descripción del logo" />
                     </a>
                     <p className='text011'>Jonas Girod</p>
-                    <p className='text15'>VP Marketing</p>
+                    <p className='text15'>Ext. coll. Marketing & Sales</p>
 
 
                 </div>
@@ -124,7 +124,7 @@ const CardTrabajadores = () => {
                     </a>
                     <p className='text1'>Marcos Garrido
                     </p>
-                    <p className='text34'>Systems Engineer</p>
+                    <p className='text34'>Ext. coll. Engineer</p>
 
 
                 </div>

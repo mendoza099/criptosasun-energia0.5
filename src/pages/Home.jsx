@@ -27,7 +27,7 @@ export const Home = () => {
 				<div className="cuadro1">
 
 
-					<p className="parrafo1">El gran paso a la revolución del mundo con <strong>tecnología de vanguardia </strong>.</p>
+					<p className="parrafo1">El gran paso a la revolución con <strong>tecnología de vanguardia </strong>.</p>
 					<p className="texto2">Uniendo los mundos  de las <strong>redes neuronales</strong>  y la <strong> computación cuántica</strong> .
 					</p>
 

@@ -185,12 +185,12 @@
   .text15{
     font-family: "Poppins", sans-serif;
     color: #4c4e52;
-    margin-left:11%;
+  
   }
   .text004{
     font-family: "Poppins", sans-serif;
     color: #4c4e52;
-    margin-left:18%;
+    margin-left:10%;
   }
   @media (max-width: 1024px) {
     .colocacion-trabajadores {
