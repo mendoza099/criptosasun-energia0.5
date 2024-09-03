@@ -44,6 +44,7 @@ export const Footer = () => (
 					Válido hasta el 21 de noviembre de 2026
 				</div>
 			</div>
+		
 			<div>
 				<img
 				 className="final455"
@@ -54,6 +55,6 @@ export const Footer = () => (
 			</div>
 		</a>
 	</div>
-
+	<img src="https://res.cloudinary.com/dzrp12vse/image/upload/v1725379717/Captura_de_pantalla_2024-09-03_180813_twp8g0.png" alt="Imagen Izquierda" className="imagen11" />
 </div>
 );
